@@ -3,6 +3,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
+import 'package:flutter_webrtc_demo/main.dart';
 
 import '../utils/device_info.dart'
     if (dart.library.js) '../utils/device_info_web.dart';
@@ -306,6 +307,7 @@ class Signaling {
           }
         */
         _iceServers = {
+          'iceTransportPolicy': 'all',
           'iceServers': [
             {
               // 'urls': _turnCredential['uris'][0],
@@ -314,7 +316,7 @@ class Signaling {
 
               // TODO: change to your turn server url.
               // e.g. I use https://github.com/coturn/coturn
-              'url': 'turn:192.168.1.103:3478',
+              'url': 'turn:192.168.1.102:3478',
               'username': 'mike',
               'credential': 'mikepass'
             },
@@ -324,7 +326,7 @@ class Signaling {
     }
 
     _socket?.onOpen = () {
-      print('onOpen');
+      log.w('onOpen');
       onSignalingStateChange?.call(SignalingState.ConnectionOpen);
       _send('new', {
         'name': DeviceInfo.label,
@@ -334,12 +336,14 @@ class Signaling {
     };
 
     _socket?.onMessage = (message) {
-      print('Received data: ' + message);
-      onMessage(_decoder.convert(message));
+      log.w('onMessage message: $message');
+      final decoded = _decoder.convert(message);
+      log.w('decoded message: $decoded');
+      onMessage(decoded);
     };
 
     _socket?.onClose = (int? code, String? reason) {
-      print('Closed by server [$code => $reason]!');
+      log.w('Closed by server [$code => $reason]!');
       onSignalingStateChange?.call(SignalingState.ConnectionClosed);
     };
 
@@ -417,6 +421,7 @@ class Signaling {
         case 'unified-plan':
           // Unified-Plan
           pc.onTrack = (event) {
+            log.w('onTrack: $event');
             if (event.track.kind == 'video') {
               onAddRemoteStream?.call(newSession, event.streams[0]);
             }
@@ -472,6 +477,7 @@ class Signaling {
       */
     }
     pc.onIceCandidate = (candidate) async {
+      log.w("NEW CANDIDATE: ${candidate.candidate}");
       if (candidate == null) {
         print('onIceCandidate: complete!');
         return;

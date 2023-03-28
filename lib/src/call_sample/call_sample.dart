@@ -17,6 +17,7 @@ class CallSample extends StatefulWidget {
 
 class _CallSampleState extends State<CallSample> {
   Signaling? _signaling;
+  // Main state, each peer will be used to build a row in the list view.
   List<dynamic> _peers = [];
   String? _selfId;
   RTCVideoRenderer _localRenderer = RTCVideoRenderer();

@@ -1,11 +1,14 @@
 import 'dart:core';
 
 import 'package:flutter/material.dart';
+import 'package:logger/logger.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'src/call_sample/call_sample.dart';
 import 'src/call_sample/data_channel_sample.dart';
 import 'src/route_item.dart';
+
+final log = Logger();
 
 void main() => runApp(new MyApp());
 
