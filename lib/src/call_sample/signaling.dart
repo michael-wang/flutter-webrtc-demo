@@ -3,6 +3,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
+import 'package:flutter_webrtc_demo/config.dart';
 import 'package:flutter_webrtc_demo/main.dart';
 
 import '../utils/device_info.dart'
@@ -77,19 +78,7 @@ class Signaling {
 
   String get sdpSemantics => 'unified-plan';
 
-  Map<String, dynamic> _iceServers = {
-    'iceServers': [
-      {'url': 'stun:stun.l.google.com:19302'},
-      /*
-       * turn server configuration example.
-      {
-        'url': 'turn:123.45.67.89:3478',
-        'username': 'change_to_real_user',
-        'credential': 'change_to_real_secret'
-      },
-      */
-    ]
-  };
+  Map<String, dynamic> _iceServers = Config.peerConnection;
 
   final Map<String, dynamic> _config = {
     'mandatory': {},
@@ -296,29 +285,20 @@ class Signaling {
 
     print('connect to $url');
 
-    if (_turnCredential == null) {
+    if (Config.getConnectionConfigFromServer && _turnCredential == null) {
       try {
         _turnCredential = await getTurnCredential(_host, _port);
-        /*{
-            "username": "1584195784:mbzrxpgjys",
-            "password": "isyl6FF6nqMTB9/ig5MrMRUXqZg",
-            "ttl": 86400,
-            "uris": ["turn:127.0.0.1:19302?transport=udp"]
-          }
-        */
+        log.w('turn server credential from Webrtc server: $_turnCredential');
+        // For local development, shouldn't we replace 127.0.0.1 by _host?
+        final url = (_turnCredential['uris'][0] as String)
+            .replaceAll('127.0.0.1', _host);
+        log.w('Turn url: $url');
         _iceServers = {
-          'iceTransportPolicy': 'all',
           'iceServers': [
             {
-              // 'urls': _turnCredential['uris'][0],
-              // 'username': _turnCredential['username'],
-              // 'credential': _turnCredential['password']
-
-              // TODO: change to your turn server url.
-              // e.g. I use https://github.com/coturn/coturn
-              'url': 'turn:192.168.1.102:3478',
-              'username': 'mike',
-              'credential': 'mikepass'
+              'urls': url,
+              'username': _turnCredential['username'],
+              'credential': _turnCredential['password']
             },
           ]
         };
