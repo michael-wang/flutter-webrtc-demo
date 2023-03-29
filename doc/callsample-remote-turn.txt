@@ -1,0 +1,363 @@
+Launching lib/main.dart on aiot8365p3 64 bsp in debug mode...
+✓  Built build/app/outputs/flutter-apk/app-debug.apk.
+W/FlutterWebRTCPlugin( 2222): audioFocusChangeListener [Speakerphone(name=Speakerphone)] Speakerphone(name=Speakerphone)
+W/FlutterWebRTCPlugin( 2222): audioFocusChangeListener [WiredHeadset(name=Wired Headset), Speakerphone(name=Speakerphone)] WiredHeadset(name=Wired Headset)
+I/flutter ( 2222): getTurnCredential: Allow self-signed certificate => 192.168.1.101:8086.
+I/flutter ( 2222): getTurnCredential: Allow self-signed certificate => 192.168.1.101:8086.
+I/flutter ( 2222): getTurnCredential:response => {"username":"1680058809:flutter-webrtc","password":"ky2AlaA/rVmbAfI4DJ5Xov9VFu8","ttl":86400,"uris":["turn:127.0.0.1:19302?transport=udp"]}
+I/flutter ( 2222): .
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect (package:flutter_webrtc_demo/src/call_sample/signaling.dart:291:13)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ turn server credential from Webrtc server: {username: 1680058809:flutter-webrtc, password: ky2AlaA/rVmbAfI4DJ5Xov9VFu8, ttl: 86400, uris: [turn:127.0.0.1:19302?transport=udp]}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): SimpleWebSocket: Allow self-signed certificate => 192.168.1.101:8086.
+I/flutter ( 2222): SimpleWebSocket: Allow self-signed certificate => 192.168.1.101:8086.
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:313:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onOpen
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): send: {"type":"new","data":{"name":"Flutter android(localhost)","id":"350413","user_agent":"flutter-webrtc/android-plugin 0.0.1"}}
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"peers","data":[{"id":"350413","name":"Flutter android(localhost)","user_agent":"flutter-webrtc/android-plugin 0.0.1"}]}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: peers, data: [{id: 350413, name: Flutter android(localhost), user_agent: flutter-webrtc/android-plugin 0.0.1}]}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"peers","data":[{"id":"350413","name":"Flutter android(localhost)","user_agent":"flutter-webrtc/android-plugin 0.0.1"},{"id":"405781","name":"Flutter android(localhost)","user_agent":"flutter-webrtc/android-plugin 0.0.1"}]}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: peers, data: [{id: 350413, name: Flutter android(localhost), user_agent: flutter-webrtc/android-plugin 0.0.1}, {id: 405781, name: Flutter android(localhost), user_agent: flutter-webrtc/android-plugin 0.0.1}]}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"offer","data":{"to":"350413","from":"405781","description":{"sdp":"v=0\r\no=- 3788092584539470218 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS b918e61f-f3f3-429c-8ff2-f96442888e01\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 63 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:4gpx\r\na=ice-pwd:RCZzc8HZyPfeAtc9rCOTOTGg\r\na=ice-options:trickle renomination\r\na=fingerprint:sha-256 9B:46:04:EF:3D:7F:A7:02:43:E1:74:3B:64:30:EF:F9:88:28:9A:BC:12:94:E1:D8:14:43:E4:00:A4:07:50:BC\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=sendrecv\r\na=msid:b918e61f-f3f3-429c-8ff2-f96442888e01 d99b928e-b1de-48cb-ae61-adccd3
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: offer, data: {to: 350413, from: 405781, description: {sdp: v=0
+I/flutter ( 2222): │ ⚠️ o=- 3788092584539470218 2 IN IP4 127.0.0.1
+I/flutter ( 2222): │ ⚠️ s=-
+I/flutter ( 2222): │ ⚠️ t=0 0
+I/flutter ( 2222): │ ⚠️ a=group:BUNDLE 0 1
+I/flutter ( 2222): │ ⚠️ a=extmap-allow-mixed
+I/flutter ( 2222): │ ⚠️ a=msid-semantic: WMS b918e61f-f3f3-429c-8ff2-f96442888e01
+I/flutter ( 2222): │ ⚠️ m=audio 9 UDP/TLS/RTP/SAVPF 111 63 103 104 9 0 8 106 105 13 110 112 113 126
+I/flutter ( 2222): │ ⚠️ c=IN IP4 0.0.0.0
+I/flutter ( 2222): │ ⚠️ a=rtcp:9 IN IP4 0.0.0.0
+I/flutter ( 2222): │ ⚠️ a=ice-ufrag:4gpx
+I/flutter ( 2222): │ ⚠️ a=ice-pwd:RCZzc8HZyPfeAtc9rCOTOTGg
+I/flutter ( 2222): │ ⚠️ a=ice-options:trickle renomination
+I/flutter ( 2222): │ ⚠️ a=fingerprint:sha-256 9B:46:04:EF:3D:7F:A7:02:43:E1:74:3B:64:30:EF:F9:88:28:9A:BC:12:94:E1:D8:14:43:E4:00:A4:07:50:BC
+I/flutter ( 2222): │ ⚠️ a=setup:actpass
+I/flutter ( 2222): │ ⚠️ a=mid:0
+I/flutter ( 2222): │ ⚠️ a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+I/flutter ( 2222): │ ⚠️ a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+I/flutter ( 2222): │ ⚠️ a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+I/flutter ( 2222): │ ⚠️ a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+I/flutter ( 2222): │ ⚠️ a=sendrecv
+I/flutter ( 2222): │ ⚠️ a=msid:b918e61f-f3f3-429c-8ff2-f96442888e01 d99b928e-b1de-48cb-ae61-adccd35a4f0a
+I/flutter ( 2222): │ ⚠️ a=rtcp-mux
+I/flutter ( 2222): │ ⚠️ a=rtpmap:111 opus/48000/2
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:111 transport-cc
+I/flutter ( 2222): │ ⚠️ a=fmtp:111 minptime=10;useinbandfec=1
+I/flutter ( 2222): │ ⚠️ a=rtpmap:63 red/48000/2
+I/flutter ( 2222): │ ⚠️ a=fmtp:63 111/111
+I/flutter ( 2222): │ ⚠️ a=rtpmap:103 ISAC/16000
+I/flutter ( 2222): │ ⚠️ a=rtpmap:104 ISAC/32000
+I/flutter ( 2222): │ ⚠️ a=rtpmap:9 G722/8000
+I/flutter ( 2222): │ ⚠️ a=rtpmap:0 PCMU/8000
+I/flutter ( 2222): │ ⚠️ a=rtpmap:8 PCMA/8000
+I/flutter ( 2222): │ ⚠️ a=rtpmap:106 CN/32000
+I/flutter ( 2222): │ ⚠️ a=rtpmap:105 CN/16000
+I/flutter ( 2222): │ ⚠️ a=rtpmap:13 CN/8000
+I/flutter ( 2222): │ ⚠️ a=rtpmap:110 telephone-event/48000
+I/flutter ( 2222): │ ⚠️ a=rtpmap:112 telephone-event/32000
+I/flutter ( 2222): │ ⚠️ a=rtpmap:113 telephone-event/16000
+I/flutter ( 2222): │ ⚠️ a=rtpmap:126 telephone-event/8000
+I/flutter ( 2222): │ ⚠️ a=ssrc:2574605213 cname:QQirnzH/0cOa+h7u
+I/flutter ( 2222): │ ⚠️ a=ssrc:2574605213 msid:b918e61f-f3f3-429c-8ff2-f96442888e01 d99b928e-b1de-48cb-ae61-adccd35a4f0a
+I/flutter ( 2222): │ ⚠️ m=video 9 UDP/TLS/RTP/SAVPF 96 97 100 101 35 36 102 125 127
+I/flutter ( 2222): │ ⚠️ c=IN IP4 0.0.0.0
+I/flutter ( 2222): │ ⚠️ a=rtcp:9 IN IP4 0.0.0.0
+I/flutter ( 2222): │ ⚠️ a=ice-ufrag:4gpx
+I/flutter ( 2222): │ ⚠️ a=ice-pwd:RCZzc8HZyPfeAtc9rCOTOTGg
+I/flutter ( 2222): │ ⚠️ a=ice-options:trickle renomination
+I/flutter ( 2222): │ ⚠️ a=fingerprint:sha-256 9B:46:04:EF:3D:7F:A7:02:43:E1:74:3B:64:30:EF:F9:88:28:9A:BC:12:94:E1:D8:14:43:E4:00:A4:07:50:BC
+I/flutter ( 2222): │ ⚠️ a=setup:actpass
+I/flutter ( 2222): │ ⚠️ a=mid:1
+I/flutter ( 2222): │ ⚠️ a=extmap:14 urn:ietf:params:rtp-hdrext:toffset
+I/flutter ( 2222): │ ⚠️ a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+I/flutter ( 2222): │ ⚠️ a=extmap:13 urn:3gpp:video-orientation
+I/flutter ( 2222): │ ⚠️ a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+I/flutter ( 2222): │ ⚠️ a=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+I/flutter ( 2222): │ ⚠️ a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+I/flutter ( 2222): │ ⚠️ a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+I/flutter ( 2222): │ ⚠️ a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space
+I/flutter ( 2222): │ ⚠️ a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+I/flutter ( 2222): │ ⚠️ a=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+I/flutter ( 2222): │ ⚠️ a=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+I/flutter ( 2222): │ ⚠️ a=extmap:12 https://aomediacodec.github.io/av1-rtp-spec/#dependency-descriptor-rtp-header-extension
+I/flutter ( 2222): │ ⚠️ a=sendrecv
+I/flutter ( 2222): │ ⚠️ a=msid:b918e61f-f3f3-429c-8ff2-f96442888e01 17c4d027-7d7d-48a0-8d2f-7bb70ab25b22
+I/flutter ( 2222): │ ⚠️ a=rtcp-mux
+I/flutter ( 2222): │ ⚠️ a=rtcp-rsize
+I/flutter ( 2222): │ ⚠️ a=rtpmap:96 VP8/90000
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:96 goog-remb
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:96 transport-cc
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:96 ccm fir
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:96 nack
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:96 nack pli
+I/flutter ( 2222): │ ⚠️ a=rtpmap:97 rtx/90000
+I/flutter ( 2222): │ ⚠️ a=fmtp:97 apt=96
+I/flutter ( 2222): │ ⚠️ a=rtpmap:100 H264/90000
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:100 goog-remb
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:100 transport-cc
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:100 ccm fir
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:100 nack
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:100 nack pli
+I/flutter ( 2222): │ ⚠️ a=fmtp:100 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f
+I/flutter ( 2222): │ ⚠️ a=rtpmap:101 rtx/90000
+I/flutter ( 2222): │ ⚠️ a=fmtp:101 apt=100
+I/flutter ( 2222): │ ⚠️ a=rtpmap:35 AV1/90000
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:35 goog-remb
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:35 transport-cc
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:35 ccm fir
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:35 nack
+I/flutter ( 2222): │ ⚠️ a=rtcp-fb:35 nack pli
+I/flutter ( 2222): │ ⚠️ a=rtpmap:36 rtx/90000
+I/flutter ( 2222): │ ⚠️ a=fmtp:36 apt=35
+I/flutter ( 2222): │ ⚠️ a=rtpmap:102 red/90000
+I/flutter ( 2222): │ ⚠️ a=rtpmap:125 rtx/90000
+I/flutter ( 2222): │ ⚠️ a=fmtp:125 apt=102
+I/flutter ( 2222): │ ⚠️ a=rtpmap:127 ulpfec/90000
+I/flutter ( 2222): │ ⚠️ a=ssrc-group:FID 3074424681 2947569624
+I/flutter ( 2222): │ ⚠️ a=ssrc:3074424681 cname:QQirnzH/0cOa+h7u
+I/flutter ( 2222): │ ⚠️ a=ssrc:3074424681 msid:b918e61f-f3f3-429c-8ff2-f96442888e01 17c4d027-7d7d-48a0-8d2f-7bb70ab25b22
+I/flutter ( 2222): │ ⚠️ a=ssrc:2947569624 cname:QQirnzH/0cOa+h7u
+I/flutter ( 2222): │ ⚠️ a=ssrc:2947569624 msid:b918e61f-f3f3-429c-8ff2-f96442888e01 17c4d027-7d7d-48a0-8d2f-7bb70ab25b22
+I/flutter ( 2222): │ ⚠️ , type: offer}, session_id: 405781-350413, media: video}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): {iceServers: [{url: turn:123.51.250.102:5349, username: ???, credential: ???}, {}]}
+D/FlutterWebRTCPlugin( 2222): onAddTrack
+D/FlutterWebRTCPlugin( 2222): onAddTrack
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:408:17)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onTrack: Instance of 'RTCTrackEvent'
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:408:17)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onTrack: Instance of 'RTCTrackEvent'
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:2702239670 1 udp 2122260223 192.168.1.103 41921 typ host generation 0 ufrag 4gpx network-id 6 network-cost 10"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:2702239670 1 udp 2122260223 192.168.1.103 41921 typ host generation 0 ufrag 4gpx network-id 6 network-cost 10}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:2702239670 1 udp 2122129151 192.168.1.103 40171 typ host generation 0 ufrag 4gpx network-id 3 network-cost 900"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:2702239670 1 udp 2122129151 192.168.1.103 40171 typ host generation 0 ufrag 4gpx network-id 3 network-cost 900}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:559267639 1 udp 2122005759 ::1 38820 typ host generation 0 ufrag 4gpx network-id 2"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:559267639 1 udp 2122005759 ::1 38820 typ host generation 0 ufrag 4gpx network-id 2}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:1510613869 1 udp 2121932543 127.0.0.1 46207 typ host generation 0 ufrag 4gpx network-id 1"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:1510613869 1 udp 2121932543 127.0.0.1 46207 typ host generation 0 ufrag 4gpx network-id 1}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:2702239670 1 udp 2122260223 192.168.1.103 39309 typ host generation 0 ufrag 4gpx network-id 6 network-cost 10"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 1, sdpMid: 1, candidate: candidate:2702239670 1 udp 2122260223 192.168.1.103 39309 typ host generation 0 ufrag 4gpx network-id 6 network-cost 10}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:2702239670 1 udp 2122129151 192.168.1.103 40939 typ host generation 0 ufrag 4gpx network-id 3 network-cost 900"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 1, sdpMid: 1, candidate: candidate:2702239670 1 udp 2122129151 192.168.1.103 40939 typ host generation 0 ufrag 4gpx network-id 3 network-cost 900}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:559267639 1 udp 2122005759 ::1 47182 typ host generation 0 ufrag 4gpx network-id 2"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 1, sdpMid: 1, candidate: candidate:559267639 1 udp 2122005759 ::1 47182 typ host generation 0 ufrag 4gpx network-id 2}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:1510613869 1 udp 2121932543 127.0.0.1 46369 typ host generation 0 ufrag 4gpx network-id 1"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 1, sdpMid: 1, candidate: candidate:1510613869 1 udp 2121932543 127.0.0.1 46369 typ host generation 0 ufrag 4gpx network-id 1}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:4168439054 1 tcp 1518083839 10.129.49.181 9 typ host tcptype active generation 0 ufrag 4gpx network-id 5 network-cost 900"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:4168439054 1 tcp 1518083839 10.129.49.181 9 typ host tcptype active generation 0 ufrag 4gpx network-id 5 network-cost 900}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:1876313031 1 tcp 1518025983 ::1 37101 typ host tcptype passive generation 0 ufrag 4gpx network-id 2"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:1876313031 1 tcp 1518025983 ::1 37101 typ host tcptype passive generation 0 ufrag 4gpx network-id 2}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:344579997 1 tcp 1517952767 127.0.0.1 43153 typ host tcptype passive generation 0 ufrag 4gpx network-id 1"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:344579997 1 tcp 1517952767 127.0.0.1 43153 typ host tcptype passive generation 0 ufrag 4gpx network-id 1}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:4168439054 1 tcp 1518083839 10.129.49.181 9 typ host tcptype active generation 0 ufrag 4gpx network-id 5 network-cost 900"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 1, sdpMid: 1, candidate: candidate:4168439054 1 tcp 1518083839 10.129.49.181 9 typ host tcptype active generation 0 ufrag 4gpx network-id 5 network-cost 900}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:1876313031 1 tcp 1518025983 ::1 45251 typ host tcptype passive generation 0 ufrag 4gpx network-id 2"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 1, sdpMid: 1, candidate: candidate:1876313031 1 tcp 1518025983 ::1 45251 typ host tcptype passive generation 0 ufrag 4gpx network-id 2}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"350413","from":"405781","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:344579997 1 tcp 1517952767 127.0.0.1 46915 typ host tcptype passive generation 0 ufrag 4gpx network-id 1"},"session_id":"405781-350413"}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {type: candidate, data: {to: 350413, from: 405781, candidate: {sdpMLineIndex: 1, sdpMid: 1, candidate: candidate:344579997 1 tcp 1517952767 127.0.0.1 46915 typ host tcptype passive generation 0 ufrag 4gpx network-id 1}, session_id: 405781-350413}}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): send: {"type":"answer","data":{"to":"405781","from":"350413","description":{"sdp":"v=0\r\no=- 2053678243701141064 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS cc166f88-84bf-4d67-b85c-3460aa68fb77\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 63 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:4iMn\r\na=ice-pwd:hK7WI3fhM+TRF8duGwKCnRdh\r\na=ice-options:trickle renomination\r\na=fingerprint:sha-256 32:47:DB:1C:0B:35:5C:32:E2:60:3F:29:F6:A8:A7:87:1B:0F:4A:0C:09:FC:A1:8D:E7:03:42:B7:94:F0:B7:D5\r\na=setup:active\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=sendrecv\r\na=msid:cc166f88-84bf-4d67-b85c-3460aa68fb77 3f1b5dcd-d1f1-42ed-985f-3edd7ecbfb42\r\na=rtcp-mux\r\na=rtpmap:11
+D/FlutterWebRTCPlugin( 2222): onConnectionChangeCONNECTING
+D/FlutterWebRTCPlugin( 2222): onIceCandidate
+I/chatty  ( 2222): uid=10106(com.cloudwebrtc.flutterwebrtcdemo) signaling_threa identical 1 line
+D/FlutterWebRTCPlugin( 2222): onIceCandidate
+I/org.webrtc.Logging( 2222): NetworkMonitorAutoDetect: capabilities changed: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps SignalStrength: -57]
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:464:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ NEW CANDIDATE: candidate:2530088836 1 udp 2122260223 192.168.1.106 54272 typ host generation 0 ufrag 4iMn network-id 3 network-cost 10
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:464:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ NEW CANDIDATE: candidate:559267639 1 udp 2122202367 ::1 51173 typ host generation 0 ufrag 4iMn network-id 2
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:464:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ NEW CANDIDATE: candidate:1510613869 1 udp 2122129151 127.0.0.1 54478 typ host generation 0 ufrag 4iMn network-id 1
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/org.webrtc.Logging( 2222): NetworkMonitorAutoDetect: link properties changed
+D/FlutterWebRTCPlugin( 2222): onIceCandidate
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:464:11)
+D/FlutterWebRTCPlugin( 2222): onIceCandidate
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ NEW CANDIDATE: candidate:1876313031 1 tcp 1518222591 ::1 48327 typ host tcptype passive generation 0 ufrag 4iMn network-id 2
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:464:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ NEW CANDIDATE: candidate:344579997 1 tcp 1518149375 127.0.0.1 47381 typ host tcptype passive generation 0 ufrag 4iMn network-id 1
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+D/FlutterWebRTCPlugin( 2222): onSelectedCandidatePairChanged
+D/FlutterWebRTCPlugin( 2222): onIceGatheringChangeCOMPLETE
+D/FlutterWebRTCPlugin( 2222): onConnectionChangeCONNECTED
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:323:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ onMessage message: {}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 2222): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/GED     ( 2222): ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 2, oppidx_max 2, oppidx_min 0
+I/flutter ( 2222): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:325:11)
+I/flutter ( 2222): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 2222): │ ⚠️ decoded message: {}
+I/flutter ( 2222): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────

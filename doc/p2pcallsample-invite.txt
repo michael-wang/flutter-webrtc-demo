@@ -1,0 +1,852 @@
+Launching lib/main.dart on Pixel 4 in debug mode...
+✓  Built build/app/outputs/flutter-apk/app-debug.apk.
+W/FlutterWebRTCPlugin(19688): audioFocusChangeListener [Earpiece(name=Earpiece)] Earpiece(name=Earpiece)
+W/FlutterWebRTCPlugin(19688): audioFocusChangeListener [Speakerphone(name=Speakerphone), Earpiece(name=Earpiece)] Speakerphone(name=Speakerphone)
+Connecting to VM Service at ws://127.0.0.1:57273/F6Dp8q582Vk=/ws
+E/SurfaceSyncer(19688): Failed to find sync for id=0
+W/Parcel  (19688): Expecting binder but got null!
+I/org.webrtc.Logging(19688): NativeLibrary: Loading native library: jingle_peerconnection_so
+I/org.webrtc.Logging(19688): NativeLibrary: Loading library: jingle_peerconnection_so
+I/org.webrtc.Logging(19688): PeerConnectionFactory: PeerConnectionFactory was initialized without an injected Loggable. Any existing Loggable will be deleted.
+I/org.webrtc.Logging(19688): EglBase14Impl: Using OpenGL ES version 2
+I/flutter (19688): connect to https://192.168.1.102:8086/ws
+I/org.webrtc.Logging(19688): WebRtcAudioManagerExternal: Sample rate is set to 48000 Hz
+I/org.webrtc.Logging(19688): WebRtcAudioManagerExternal: Sample rate is set to 48000 Hz
+I/org.webrtc.Logging(19688): JavaAudioDeviceModule: createAudioDeviceModule
+I/org.webrtc.Logging(19688): JavaAudioDeviceModule: HW NS will be used.
+I/org.webrtc.Logging(19688): JavaAudioDeviceModule: HW AEC will be used.
+I/org.webrtc.Logging(19688): WebRtcAudioEffectsExternal: ctor@[name=main, id=2]
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: ctor@[name=main, id=2]
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: ctor@[name=main, id=2]
+W/VideoCapabilities(19688): Unsupported mime image/vnd.android.heic
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: enableBuiltInAEC(true)
+I/org.webrtc.Logging(19688): WebRtcAudioEffectsExternal: setAEC(true)
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: enableBuiltInNS(true)
+I/org.webrtc.Logging(19688): WebRtcAudioEffectsExternal: setNS(true)
+I/org.webrtc.Logging(19688): PeerConnectionFactory: onWorkerThreadReady
+I/org.webrtc.Logging(19688): PeerConnectionFactory: onNetworkThreadReady
+I/org.webrtc.Logging(19688): PeerConnectionFactory: onSignalingThreadReady
+I/org.webrtc.Logging(19688): EglRenderer: Initializing EglRenderer
+I/org.webrtc.Logging(19688): EglRenderer: EglBase.create shared context
+I/org.webrtc.Logging(19688): EglBase14Impl: Using OpenGL ES version 2
+I/org.webrtc.Logging(19688): EglRenderer: Initializing EglRenderer
+I/org.webrtc.Logging(19688): EglRenderer: EglBase.create shared context
+I/org.webrtc.Logging(19688): EglBase14Impl: Using OpenGL ES version 2
+I/flutter (19688): getTurnCredential: Allow self-signed certificate => 192.168.1.102:8086.
+I/flutter (19688): getTurnCredential: Allow self-signed certificate => 192.168.1.102:8086.
+I/flutter (19688): getTurnCredential:response => {"username":"????","password":"????","ttl":86400,"uris":["turn:127.0.0.1:19302?transport=udp"]}
+I/flutter (19688): .
+I/flutter (19688): SimpleWebSocket: Allow self-signed certificate => 192.168.1.102:8086.
+I/flutter (19688): SimpleWebSocket: Allow self-signed certificate => 192.168.1.102:8086.
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:329:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect (package:flutter_webrtc_demo/src/utils/websocket.dart:18:15)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ onOpen
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): send: {"type":"new","data":{"name":"Flutter android(localhost)","id":"847818","user_agent":"flutter-webrtc/android-plugin 0.0.1"}}
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:339:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ onMessage message: {"type":"peers","data":[{"id":"224685","name":"Flutter android(localhost)","user_agent":"flutter-webrtc/android-plugin 0.0.1"},{"id":"847818","name":"Flutter android(localhost)","user_agent":"flutter-webrtc/android-plugin 0.0.1"}]}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:341:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ decoded message: {type: peers, data: [{id: 224685, name: Flutter android(localhost), user_agent: flutter-webrtc/android-plugin 0.0.1}, {id: 847818, name: Flutter android(localhost), user_agent: flutter-webrtc/android-plugin 0.0.1}]}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/FlutterWebRTCPlugin(19688): getUserMedia(audio): mandatory: [], optional: [googNoiseSuppression: true, googEchoCancellation: true, echoCancellation: true, googEchoCancellation2: true, googDAEchoCancellation: true]
+I/FlutterWebRTCPlugin(19688): getUserMedia(video): ConstraintsMap{mMap={facingMode=user, optional=[], mandatory={minHeight=480, minFrameRate=30, minWidth=640}}}
+I/CameraManagerGlobal(19688): Connecting to camera service
+D/FlutterWebRTCPlugin(19688): Creating video capturer using Camera2 API.
+D/FlutterWebRTCPlugin(19688): Create front camera 1 succeeded
+I/org.webrtc.Logging(19688): EglBase14Impl: Using OpenGL ES version 2
+I/org.webrtc.Logging(19688): CameraCapturer: startCapture: 640x480@30
+D/FlutterWebRTCPlugin(19688): changeCaptureFormat: 640x480@30
+I/org.webrtc.Logging(19688): Camera2Session: Create new camera2 session on camera 1
+I/org.webrtc.Logging(19688): Camera2Session: start
+D/FlutterWebRTCPlugin(19688): MediaStream id: 07275a10-0a39-4270-85d2-b52e5173bedd
+I/org.webrtc.Logging(19688): Camera2Session: Available preview sizes: [3264x2448, 3264x1836, 3200x2400, 2688x1512, 2592x1944, 2560x1280, 2048x1536, 1920x1440, 1920x1080, 1920x960, 1600x1200, 1440x1080, 1280x960, 1280x720, 1024x768, 800x600, 720x480, 640x480, 640x360, 352x288, 320x240, 176x144]
+I/org.webrtc.Logging(19688): Camera2Session: Available fps ranges: [[15.0:15.0], [15.0:30.0], [30.0:30.0], [15.0:60.0], [60.0:60.0]]
+I/org.webrtc.Logging(19688): Camera2Session: Using capture format: 640x480@[15.0:30.0]
+I/org.webrtc.Logging(19688): Camera2Session: Opening camera 1
+D/FlutterWebRTCPlugin(19688): CameraEventsHandler.onCameraOpening: cameraName=1
+I/flutter (19688): {iceTransportPolicy: all, iceServers: [{url: turn:192.168.1.102:3478, username: mike, credential: mikepass}]}
+I/org.webrtc.Logging(19688): Camera2Session: Camera opened.
+I/org.webrtc.Logging(19688): Camera2Session: Camera capture session configured.
+I/org.webrtc.Logging(19688): Camera2Session: Using video stabilization.
+I/org.webrtc.Logging(19688): Camera2Session: Auto-focus is not available.
+I/org.webrtc.Logging(19688): Camera2Session: Camera device successfully started.
+I/org.webrtc.Logging(19688): CameraCapturer: Create session done. Switch state: IDLE
+I/org.webrtc.Logging(19688): SurfaceTextureHelper: Setting listener to org.webrtc.Camera2Session$CaptureSessionCallback$$ExternalSyntheticLambda0@a8a63fa
+D/FlutterWebRTCPlugin(19688): CameraEventsHandler.onFirstFrameAvailable
+W/FlutterWebRTCPlugin(19688): FlutterRTCVideoRenderer.setVideoTrack, set video track to 1b64ca3b-3f8c-42cf-9538-8e2cf34c914b
+I/org.webrtc.Logging(19688): EglRenderer: Releasing.
+I/org.webrtc.Logging(19688): EglRenderer: eglBase detach and release.
+I/org.webrtc.Logging(19688): EglRenderer: Quitting render thread.
+I/org.webrtc.Logging(19688): EglRenderer: Releasing done.
+I/org.webrtc.Logging(19688): EglRenderer: Initializing EglRenderer
+I/org.webrtc.Logging(19688): EglRenderer: EglBase.create shared context
+I/org.webrtc.Logging(19688): EglBase14Impl: Using OpenGL ES version 2
+D/MediaConstraintsUtils(19688): mandatory constraints are not a map
+D/MediaConstraintsUtils(19688): optional constraints are not an array
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: enableBuiltInAEC(true)
+I/org.webrtc.Logging(19688): WebRtcAudioEffectsExternal: setAEC(true)
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: enableBuiltInNS(true)
+I/org.webrtc.Logging(19688): WebRtcAudioEffectsExternal: setNS(true)
+I/org.webrtc.Logging(19688): NetworkMonitor: Start monitoring with native observer -5476376607079126576 fieldTrialsString:
+D/FlutterWebRTCPlugin(19688): onIceGatheringChangeGATHERING
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+I/org.webrtc.Logging(19688): NetworkMonitorAutoDetect: Network becomes available: 308
+I/org.webrtc.Logging(19688): NetworkMonitorAutoDetect: capabilities changed: [ Transports: CELLULAR Capabilities: SUPL&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 1]> UnderlyingNetworks: Null]
+I/org.webrtc.Logging(19688): NetworkMonitorAutoDetect: link properties changed
+I/org.webrtc.Logging(19688): NetworkMonitorAutoDetect: Network becomes available: 307
+I/org.webrtc.Logging(19688): NetworkMonitorAutoDetect: capabilities changed: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=5426Kbps LinkDnBandwidth>=42093Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /192.168.1.103, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 4, RSSI: -45, Link speed: 144Mbps, Tx Link speed: 144Mbps, Max Supported Tx Link speed: 144Mbps, Rx Link speed: 173Mbps, Max Supported Rx Link speed: 144Mbps, Frequency: 2462MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: -1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>> SignalStrength: -45 UnderlyingNetworks: Null]
+I/org.webrtc.Logging(19688): NetworkMonitorAutoDetect: link properties changed
+I/flutter (19688): send: {"type":"offer","data":{"to":"224685","from":"847818","description":{"sdp":"v=0\r\no=- 2354638414654265805 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS 07275a10-0a39-4270-85d2-b52e5173bedd\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 63 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:xYb/\r\na=ice-pwd:2DXFJM/eoCXNv/O2NVwarMko\r\na=ice-options:trickle renomination\r\na=fingerprint:sha-256 FE:03:2F:18:C7:28:49:DD:56:77:6F:49:B8:F9:18:98:35:B9:F0:85:E1:C6:7A:68:B4:65:FD:3B:87:6D:39:C7\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=sendrecv\r\na=msid:07275a10-0a39-4270-85d2-b52e5173bedd 8d7253f1-1389-41d1-873b-3aaf3fd929ea\r\na=rtcp-mux\r\na=rtpmap:11
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:2702239670 1 udp 2122260223 192.168.1.103 47686 typ host generation 0 ufrag xYb/ network-id 6 network-cost 10
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:2702239670 1 udp 2122129151 192.168.1.103 43548 typ host generation 0 ufrag xYb/ network-id 3 network-cost 900
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:559267639 1 udp 2122005759 ::1 38757 typ host generation 0 ufrag xYb/ network-id 2
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:1510613869 1 udp 2121932543 127.0.0.1 40550 typ host generation 0 ufrag xYb/ network-id 1
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:2702239670 1 udp 2122260223 192.168.1.103 39628 typ host generation 0 ufrag xYb/ network-id 6 network-cost 10
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:2702239670 1 udp 2122129151 192.168.1.103 42586 typ host generation 0 ufrag xYb/ network-id 3 network-cost 900
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:559267639 1 udp 2122005759 ::1 38889 typ host generation 0 ufrag xYb/ network-id 2
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:1510613869 1 udp 2121932543 127.0.0.1 49612 typ host generation 0 ufrag xYb/ network-id 1
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:1885450920 1 udp 41885439 192.168.1.102 51785 typ relay raddr 192.168.1.103 rport 47686 generation 0 ufrag xYb/ network-id 6 network-cost 10
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:1885450920 1 udp 41885439 192.168.1.102 49356 typ relay raddr 192.168.1.103 rport 39628 generation 0 ufrag xYb/ network-id 6 network-cost 10
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:509629211 1 tcp 1518083839 10.134.39.61 9 typ host tcptype active generation 0 ufrag xYb/ network-id 5 network-cost 900
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:1876313031 1 tcp 1518025983 ::1 48833 typ host tcptype passive generation 0 ufrag xYb/ network-id 2
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+D/FlutterWebRTCPlugin(19688): onIceCandidate
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:344579997 1 tcp 1517952767 127.0.0.1 39393 typ host tcptype passive generation 0 ufrag xYb/ network-id 1
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:509629211 1 tcp 1518083839 10.134.39.61 9 typ host tcptype active generation 0 ufrag xYb/ network-id 5 network-cost 900
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:1876313031 1 tcp 1518025983 ::1 45933 typ host tcptype passive generation 0 ufrag xYb/ network-id 2
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:480:11)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ NEW CANDIDATE: candidate:344579997 1 tcp 1517952767 127.0.0.1 46741 typ host tcptype passive generation 0 ufrag xYb/ network-id 1
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:2702239670 1 udp 2122260223 192.168.1.103 47686 typ host generation 0 ufrag xYb/ network-id 6 network-cost 10"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:2702239670 1 udp 2122129151 192.168.1.103 43548 typ host generation 0 ufrag xYb/ network-id 3 network-cost 900"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:559267639 1 udp 2122005759 ::1 38757 typ host generation 0 ufrag xYb/ network-id 2"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:1510613869 1 udp 2121932543 127.0.0.1 40550 typ host generation 0 ufrag xYb/ network-id 1"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:2702239670 1 udp 2122260223 192.168.1.103 39628 typ host generation 0 ufrag xYb/ network-id 6 network-cost 10"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:2702239670 1 udp 2122129151 192.168.1.103 42586 typ host generation 0 ufrag xYb/ network-id 3 network-cost 900"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:559267639 1 udp 2122005759 ::1 38889 typ host generation 0 ufrag xYb/ network-id 2"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:1510613869 1 udp 2121932543 127.0.0.1 49612 typ host generation 0 ufrag xYb/ network-id 1"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:1885450920 1 udp 41885439 192.168.1.102 51785 typ relay raddr 192.168.1.103 rport 47686 generation 0 ufrag xYb/ network-id 6 network-cost 10"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:1885450920 1 udp 41885439 192.168.1.102 49356 typ relay raddr 192.168.1.103 rport 39628 generation 0 ufrag xYb/ network-id 6 network-cost 10"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:509629211 1 tcp 1518083839 10.134.39.61 9 typ host tcptype active generation 0 ufrag xYb/ network-id 5 network-cost 900"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:1876313031 1 tcp 1518025983 ::1 48833 typ host tcptype passive generation 0 ufrag xYb/ network-id 2"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:344579997 1 tcp 1517952767 127.0.0.1 39393 typ host tcptype passive generation 0 ufrag xYb/ network-id 1"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:509629211 1 tcp 1518083839 10.134.39.61 9 typ host tcptype active generation 0 ufrag xYb/ network-id 5 network-cost 900"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:1876313031 1 tcp 1518025983 ::1 45933 typ host tcptype passive generation 0 ufrag xYb/ network-id 2"},"session_id":"847818-224685"}}
+I/flutter (19688): send: {"type":"candidate","data":{"to":"224685","from":"847818","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:344579997 1 tcp 1517952767 127.0.0.1 46741 typ host tcptype passive generation 0 ufrag xYb/ network-id 1"},"session_id":"847818-224685"}}
+I/org.webrtc.Logging(19688): EglRenderer: Duration: 4009 ms. Frames received: 0. Dropped: 0. Rendered: 0. Render fps: .0. Average render time: NA. Average swapBuffer time: NA.
+I/org.webrtc.Logging(19688): CameraStatistics: Camera fps: 28.
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:339:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ onMessage message: {"type":"answer","data":{"to":"847818","from":"224685","description":{"sdp":"v=0\r\no=- 5786492170181466739 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS d5ea83a9-b6a0-4961-942d-b3c4c7d6871c\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 63 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:6H5L\r\na=ice-pwd:r0OE9Q+jB3SELVB0XgQD+UmA\r\na=ice-options:trickle renomination\r\na=fingerprint:sha-256 A4:5F:5C:13:74:B8:45:A1:F8:61:0E:FF:00:CE:40:0C:F7:9C:9B:A1:E0:63:5E:C5:54:27:A8:13:65:2C:54:F6\r\na=setup:active\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=sendrecv\r\na=msid:d5ea83a9-b6a0-4961-942d-b3c4c7d6871c ce4498e8-c7db-43c8-8761-5736b6
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:341:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ decoded message: {type: answer, data: {to: 847818, from: 224685, description: {sdp: v=0
+I/flutter (19688): │ ⚠️ o=- 5786492170181466739 2 IN IP4 127.0.0.1
+I/flutter (19688): │ ⚠️ s=-
+I/flutter (19688): │ ⚠️ t=0 0
+I/flutter (19688): │ ⚠️ a=group:BUNDLE 0 1
+I/flutter (19688): │ ⚠️ a=extmap-allow-mixed
+I/flutter (19688): │ ⚠️ a=msid-semantic: WMS d5ea83a9-b6a0-4961-942d-b3c4c7d6871c
+I/flutter (19688): │ ⚠️ m=audio 9 UDP/TLS/RTP/SAVPF 111 63 103 104 9 0 8 106 105 13 110 112 113 126
+I/flutter (19688): │ ⚠️ c=IN IP4 0.0.0.0
+I/flutter (19688): │ ⚠️ a=rtcp:9 IN IP4 0.0.0.0
+I/flutter (19688): │ ⚠️ a=ice-ufrag:6H5L
+I/flutter (19688): │ ⚠️ a=ice-pwd:r0OE9Q+jB3SELVB0XgQD+UmA
+I/flutter (19688): │ ⚠️ a=ice-options:trickle renomination
+I/flutter (19688): │ ⚠️ a=fingerprint:sha-256 A4:5F:5C:13:74:B8:45:A1:F8:61:0E:FF:00:CE:40:0C:F7:9C:9B:A1:E0:63:5E:C5:54:27:A8:13:65:2C:54:F6
+I/flutter (19688): │ ⚠️ a=setup:active
+I/flutter (19688): │ ⚠️ a=mid:0
+I/flutter (19688): │ ⚠️ a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+I/flutter (19688): │ ⚠️ a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+I/flutter (19688): │ ⚠️ a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+I/flutter (19688): │ ⚠️ a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+I/flutter (19688): │ ⚠️ a=sendrecv
+I/flutter (19688): │ ⚠️ a=msid:d5ea83a9-b6a0-4961-942d-b3c4c7d6871c ce4498e8-c7db-43c8-8761-5736b6a1887a
+I/flutter (19688): │ ⚠️ a=rtcp-mux
+I/flutter (19688): │ ⚠️ a=rtpmap:111 opus/48000/2
+I/flutter (19688): │ ⚠️ a=rtcp-fb:111 transport-cc
+I/flutter (19688): │ ⚠️ a=fmtp:111 minptime=10;useinbandfec=1
+I/flutter (19688): │ ⚠️ a=rtpmap:63 red/48000/2
+I/flutter (19688): │ ⚠️ a=fmtp:63 111/111
+I/flutter (19688): │ ⚠️ a=rtpmap:103 ISAC/16000
+I/flutter (19688): │ ⚠️ a=rtpmap:104 ISAC/32000
+I/flutter (19688): │ ⚠️ a=rtpmap:9 G722/8000
+I/flutter (19688): │ ⚠️ a=rtpmap:0 PCMU/8000
+I/flutter (19688): │ ⚠️ a=rtpmap:8 PCMA/8000
+I/flutter (19688): │ ⚠️ a=rtpmap:106 CN/32000
+I/flutter (19688): │ ⚠️ a=rtpmap:105 CN/16000
+I/flutter (19688): │ ⚠️ a=rtpmap:13 CN/8000
+I/flutter (19688): │ ⚠️ a=rtpmap:110 telephone-event/48000
+I/flutter (19688): │ ⚠️ a=rtpmap:112 telephone-event/32000
+I/flutter (19688): │ ⚠️ a=rtpmap:113 telephone-event/16000
+I/flutter (19688): │ ⚠️ a=rtpmap:126 telephone-event/8000
+I/flutter (19688): │ ⚠️ a=ssrc:1563035864 cname:jVoy61v5Q35c2klR
+I/flutter (19688): │ ⚠️ m=video 9 UDP/TLS/RTP/SAVPF 96 97 100 101 35 36 102 125 127
+I/flutter (19688): │ ⚠️ c=IN IP4 0.0.0.0
+I/flutter (19688): │ ⚠️ a=rtcp:9 IN IP4 0.0.0.0
+I/flutter (19688): │ ⚠️ a=ice-ufrag:6H5L
+I/flutter (19688): │ ⚠️ a=ice-pwd:r0OE9Q+jB3SELVB0XgQD+UmA
+I/flutter (19688): │ ⚠️ a=ice-options:trickle renomination
+I/flutter (19688): │ ⚠️ a=fingerprint:sha-256 A4:5F:5C:13:74:B8:45:A1:F8:61:0E:FF:00:CE:40:0C:F7:9C:9B:A1:E0:63:5E:C5:54:27:A8:13:65:2C:54:F6
+I/flutter (19688): │ ⚠️ a=setup:active
+I/flutter (19688): │ ⚠️ a=mid:1
+I/flutter (19688): │ ⚠️ a=extmap:14 urn:ietf:params:rtp-hdrext:toffset
+I/flutter (19688): │ ⚠️ a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+I/flutter (19688): │ ⚠️ a=extmap:13 urn:3gpp:video-orientation
+I/flutter (19688): │ ⚠️ a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+I/flutter (19688): │ ⚠️ a=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+I/flutter (19688): │ ⚠️ a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+I/flutter (19688): │ ⚠️ a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+I/flutter (19688): │ ⚠️ a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space
+I/flutter (19688): │ ⚠️ a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+I/flutter (19688): │ ⚠️ a=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+I/flutter (19688): │ ⚠️ a=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+I/flutter (19688): │ ⚠️ a=extmap:12 https://aomediacodec.github.io/av1-rtp-spec/#dependency-descriptor-rtp-header-extension
+I/flutter (19688): │ ⚠️ a=sendrecv
+I/flutter (19688): │ ⚠️ a=msid:d5ea83a9-b6a0-4961-942d-b3c4c7d6871c c8b1f327-e03c-4c39-84cb-6f8b71e7aa5c
+I/flutter (19688): │ ⚠️ a=rtcp-mux
+I/flutter (19688): │ ⚠️ a=rtcp-rsize
+I/flutter (19688): │ ⚠️ a=rtpmap:96 VP8/90000
+I/flutter (19688): │ ⚠️ a=rtcp-fb:96 goog-remb
+I/flutter (19688): │ ⚠️ a=rtcp-fb:96 transport-cc
+I/flutter (19688): │ ⚠️ a=rtcp-fb:96 ccm fir
+I/flutter (19688): │ ⚠️ a=rtcp-fb:96 nack
+I/flutter (19688): │ ⚠️ a=rtcp-fb:96 nack pli
+I/flutter (19688): │ ⚠️ a=rtpmap:97 rtx/90000
+I/flutter (19688): │ ⚠️ a=fmtp:97 apt=96
+I/flutter (19688): │ ⚠️ a=rtpmap:100 H264/90000
+I/flutter (19688): │ ⚠️ a=rtcp-fb:100 goog-remb
+I/flutter (19688): │ ⚠️ a=rtcp-fb:100 transport-cc
+I/flutter (19688): │ ⚠️ a=rtcp-fb:100 ccm fir
+I/flutter (19688): │ ⚠️ a=rtcp-fb:100 nack
+I/flutter (19688): │ ⚠️ a=rtcp-fb:100 nack pli
+I/flutter (19688): │ ⚠️ a=fmtp:100 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f
+I/flutter (19688): │ ⚠️ a=rtpmap:101 rtx/90000
+I/flutter (19688): │ ⚠️ a=fmtp:101 apt=100
+I/flutter (19688): │ ⚠️ a=rtpmap:35 AV1/90000
+I/flutter (19688): │ ⚠️ a=rtcp-fb:35 goog-remb
+I/flutter (19688): │ ⚠️ a=rtcp-fb:35 transport-cc
+I/flutter (19688): │ ⚠️ a=rtcp-fb:35 ccm fir
+I/flutter (19688): │ ⚠️ a=rtcp-fb:35 nack
+I/flutter (19688): │ ⚠️ a=rtcp-fb:35 nack pli
+I/flutter (19688): │ ⚠️ a=rtpmap:36 rtx/90000
+I/flutter (19688): │ ⚠️ a=fmtp:36 apt=35
+I/flutter (19688): │ ⚠️ a=rtpmap:102 red/90000
+I/flutter (19688): │ ⚠️ a=rtpmap:125 rtx/90000
+I/flutter (19688): │ ⚠️ a=fmtp:125 apt=102
+I/flutter (19688): │ ⚠️ a=rtpmap:127 ulpfec/90000
+I/flutter (19688): │ ⚠️ a=ssrc-group:FID 1308292539 2653772338
+I/flutter (19688): │ ⚠️ a=ssrc:1308292539 cname:jVoy61v5Q35c2klR
+I/flutter (19688): │ ⚠️ a=ssrc:2653772338 cname:jVoy61v5Q35c2klR
+I/flutter (19688): │ ⚠️ , type: answer}, session_id: 847818-224685}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: enableBuiltInAEC(true)
+I/org.webrtc.Logging(19688): WebRtcAudioEffectsExternal: setAEC(true)
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: enableBuiltInNS(true)
+I/org.webrtc.Logging(19688): WebRtcAudioEffectsExternal: setNS(true)
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: initPlayout(sampleRate=48000, channels=1, bufferSizeFactor=1.0)
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: byteBuffer.capacity: 960
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: minBufferSizeInBytes: 5772
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: createAudioTrackBeforeOreo
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: nativeOutputSampleRate: 48000
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: AudioTrack: session ID: 2981713, channels: 1, sample rate: 48000, max gain: 1.0
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: AudioTrack: buffer size in frames: 2886
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: AudioTrack: buffer capacity in frames: 2886
+I/org.webrtc.Logging(19688): VolumeLogger: start@[name=worker_thread - 19817, id=67]
+I/org.webrtc.Logging(19688): VolumeLogger: audio mode is: MODE_IN_COMMUNICATION
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: startPlayout
+I/org.webrtc.Logging(19688): VolumeLogger: VOICE_CALL stream volume: 1 (max=7)
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: AudioTrackThread@[name=AudioTrackJavaThread, id=78]
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: doAudioTrackStateCallback: 0
+I/org.webrtc.Logging(19688): AndroidVideoDecoder: ctor name: c2.qti.vp8.decoder type: VP8 color format: 19 context: org.webrtc.EglBase14Impl$Context@bb6c79e
+D/FlutterWebRTCPlugin(19688): onAddTrack
+D/FlutterWebRTCPlugin(19688): onAddTrack
+D/FlutterWebRTCPlugin(19688): onConnectionChangeCONNECTING
+D/FlutterWebRTCPlugin(19688): onIceGatheringChangeCOMPLETE
+D/FlutterWebRTCPlugin(19688): onSelectedCandidatePairChanged
+D/FlutterWebRTCPlugin(19688): onConnectionChangeCONNECTED
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: enableBuiltInAEC(true)
+I/org.webrtc.Logging(19688): WebRtcAudioEffectsExternal: setAEC(true)
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: enableBuiltInNS(true)
+I/org.webrtc.Logging(19688): WebRtcAudioEffectsExternal: setNS(true)
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: initRecording(sampleRate=48000, channels=1)
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: byteBuffer.capacity: 960
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: AudioRecord.getMinBufferSize: 3840
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: bufferSizeInBytes: 7680
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: createAudioRecordOnMOrHigher
+I/org.webrtc.Logging(19688): HardwareVideoEncoder: initEncode: 640 x 480. @ 300kbps. Fps: 60 Use surface mode: true
+D/CCodec  (19688): allocate(c2.qti.vp8.encoder)
+I/Codec2Client(19688): Available Codec2 services: "default" "software"
+I/CCodec  (19688): setting up 'default' as default (vendor) store
+I/CCodec  (19688): Created component [c2.qti.vp8.encoder]
+D/CCodecConfig(19688): read media type: video/x-vnd.on2.vp8
+D/ReflectedParamUpdater(19688): extent() != 1 for single value type: output.buffers.pool-ids.values
+D/ReflectedParamUpdater(19688): ignored struct field coding.gop.values
+D/CCodecConfig(19688): ignoring local param raw.color (0xc2001809) as it is already supported
+I/CCodecConfig(19688): query failed after returning 19 values (BAD_INDEX)
+D/CCodecConfig(19688): c2 config diff is Dict {
+D/CCodecConfig(19688):   c2::u32 algo.bitrate-mode.value = 3
+D/CCodecConfig(19688):   c2::u32 algo.complexity.value = 0
+D/CCodecConfig(19688):   c2::i32 algo.priority.value = -1
+D/CCodecConfig(19688):   c2::float algo.rate.value = 30
+D/CCodecConfig(19688):   c2::i32 coded.average-qp.value = 0
+D/CCodecConfig(19688):   c2::u32 coded.bitrate.value = 20000000
+D/CCodecConfig(19688):   c2::float coded.frame-rate.value = 30
+D/CCodecConfig(19688):   c2::u32 coded.picture-type.value = 0
+D/CCodecConfig(19688):   c2::u32 coded.pl.level = 28672
+D/CCodecConfig(19688):   c2::u32 coded.pl.profile = 28672
+D/CCodecConfig(19688):   c2::u32 coded.vui.color.matrix = 0
+D/CCodecConfig(19688):   c2::u32 coded.vui.color.primaries = 0
+D/CCodecConfig(19688):   c2::u32 coded.vui.color.range = 0
+D/CCodecConfig(19688):   c2::u32 coded.vui.color.transfer = 0
+D/CCodecConfig(19688):   c2::u32 coding.intra-refresh.mode = 0
+D/CCodecConfig(19688):   c2::float coding.intra-refresh.period = 0
+D/CCodecConfig(19688):   c2::u32 coding.request-sync-frame.value = 0
+D/CCodecConfig(19688):   c2::i64 coding.sync-frame-interval.value = 1000000
+D/CCodecConfig(19688):   c2::u32 default.color.matrix = 0
+D/CCodecConfig(19688):   c2::u32 default.color.primaries = 0
+D/CCodecConfig(19688):   c2::u32 default.color.range = 0
+D/CCodecConfig(19688):   c2::u32 default.color.transfer = 0
+D/CCodecConfig(19688):   c2::u32 input.delay.value = 0
+D/CCodecConfig(19688):   string input.media-type.value = "video/raw"
+D/CCodecConfig(19688):   c2::u32 output.delay.value = 1
+D/CCodecConfig(19688):   string output.media-type.value = "video
+W/ColorUtils(19688): expected specified color aspects (0:0:0:0)
+I/org.webrtc.Logging(19688): HardwareVideoEncoder: Format: {color-format=2130708361, i-frame-interval=3600, mime=video/x-vnd.on2.vp8, width=640, bitrate-mode=2, bitrate=300000, frame-rate=60.0, height=480}
+D/CodecSeeding(19688): Seed: codec c2.qti.vp8.encoder, mediatype video/x-vnd.on2.vp8, overrideable 1
+D/CodecProperties(19688): setTuningValue(vq-target-bpp,0)
+D/CodecProperties(19688): setFeatureValue(intra-refresh,0)
+D/CodecProperties(19688): setFeatureValue(_vq_eligible.device,1)
+D/CodecProperties(19688): setFeatureValue(_quality.target,1)
+D/CodecSeeding(19688): Seed: codec c2.qti.vp8.encoder, mediatype video/x-vnd.on2.vp8, overrideable 0
+D/VQApply (19688): minquality: applies only to VBR encoding
+D/MediaCodec(19688): shapeMediaFormat: deltas(0): AMessage(what = 0x00000000) = {
+D/MediaCodec(19688):   }
+D/CCodec  (19688): [c2.qti.vp8.encoder] buffers are bound to CCodec for this session
+D/CCodecConfig(19688): no c2 equivalents for color-format
+D/CCodecConfig(19688): no c2 equivalents for flags
+D/CCodecConfig(19688): no c2 equivalents for encoder
+D/CCodecConfig(19688): c2 config diff is   c2::u32 algo.bitrate-mode.value = 1
+D/CCodecConfig(19688):   c2::u32 coded.bitrate.value = 300000
+D/CCodecConfig(19688):   c2::float coded.frame-rate.value = 60
+D/CCodecConfig(19688):   c2::i64 coding.sync-frame-interval.value = 3600000000
+D/CCodecConfig(19688):   c2::u32 raw.pixel-format.value = 34
+D/CCodecConfig(19688):   c2::u32 raw.size.height = 480
+D/CCodecConfig(19688):   c2::u32 raw.size.width = 640
+W/ColorUtils(19688): expected specified color aspects (0:0:0:0)
+D/CCodec  (19688): encoding statistics level = 0
+D/CCodec  (19688): setup formats input: AMessage(what = 0x00000000) = {
+D/CCodec  (19688):   int32_t android._color-format = 2130708361
+D/CCodec  (19688):   Rect crop(0, 0, 639, 479)
+D/CCodec  (19688):   int32_t color-standard = 0
+D/CCodec  (19688):   int32_t color-range = 0
+D/CCodec  (19688):   int32_t color-transfer = 0
+D/CCodec  (19688):   int32_t frame-rate = 60
+D/CCodec  (19688):   int32_t height = 480
+D/CCodec  (19688):   int32_t intra-refresh-period = 0
+D/CCodec  (19688):   string mime = "video/raw"
+D/CCodec  (19688):   int32_t priority = 1
+D/CCodec  (19688):   int32_t video-qp-average = 0
+D/CCodec  (19688):   int32_t width = 640
+D/CCodec  (19688):   int32_t android._dataspace = 0
+D/CCodec  (19688):   int64_t android._C2MemoryUsage = 65536
+D/CCodec  (19688):   int32_t color-format = 2130708361
+D/CCodec  (19688): }
+D/CCodec  (19688): setup formats output: AMessage(what = 0x00000000) = {
+D/CCodec  (19688):   int32_t bitrate = 300000
+D/CCodec  (19688):   int32_t bitrate-mode = 2
+D/CCodec  (19688):   Rect crop(0, 0, 639, 479)
+D/CCodec  (19688):   int32_t color-standard = 0
+D/CCodec  (19688):   int32_t color-range = 0
+D/CCodec  (19688):   int32_t color-transfer = 0
+D/CCodec  (19688):   int32_t frame-rate = 60
+D/CCodec  (19688):   int32_t height = 480
+D/CCodec  (19688):   int32_t intra-refresh-period = 0
+D/CCodec  (19688):   int32_t level = 1
+D/CCodec  (19688):   int32_t max-bitrate = 300000
+D/CCodec  (19688):   string mime = "video/x-vnd.on2.vp8"
+D/CCodec  (19688):   int32_t priority = 1
+D/CCodec  (19688):   int32_t profile = 1
+D/CCodec  (19688):   int32_t video-qp-average = 0
+D/CCodec  (19688):   int32_t width = 640
+D/CCodec  (19688): }
+I/CCodecConfig(19688): query failed after returning 19 values (BAD_INDEX)
+I/org.webrtc.Logging(19688): EglBase14Impl: Using OpenGL ES version 2
+D/CCodec  (19688): input format changed to AMessage(what = 0x00000000) = {
+D/CCodec  (19688):   int32_t android._color-format = 2130708361
+D/CCodec  (19688):   Rect crop(0, 0, 639, 479)
+D/CCodec  (19688):   int32_t color-standard = 4
+D/CCodec  (19688):   int32_t color-range = 2
+D/CCodec  (19688):   int32_t color-transfer = 3
+D/CCodec  (19688):   int32_t frame-rate = 60
+D/CCodec  (19688):   int32_t height = 480
+D/CCodec  (19688):   int32_t intra-refresh-period = 0
+D/CCodec  (19688):   string mime = "video/raw"
+D/CCodec  (19688):   int32_t priority = 1
+D/CCodec  (19688):   int32_t video-qp-average = 0
+D/CCodec  (19688):   int32_t width = 640
+D/CCodec  (19688):   int32_t android._dataspace = 259
+D/CCodec  (19688):   int64_t android._C2MemoryUsage = 65536
+D/CCodec  (19688):   int32_t color-format = 2130708361
+D/CCodec  (19688): }
+D/GraphicBufferSource(19688): setting dataspace: 0x103, acquired=0
+D/CCodec  (19688): ISConfig not changed
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:424:17)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:176:18)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ onTrack: Instance of 'RTCTrackEvent'
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+W/Codec2Client(19688): query -- param skipped: index = 1342179345.
+W/Codec2Client(19688): query -- param skipped: index = 2415921170.
+W/Codec2Client(19688): query -- param skipped: index = 1610614798.
+D/CCodecBufferChannel(19688): [c2.qti.vp8.encoder#342] Query input allocators returned 0 params => BAD_INDEX (6)
+D/CCodecBufferChannel(19688): [c2.qti.vp8.encoder#342] Using basic input block pool with poolID 1 => got 1 - OK (0)
+D/CCodecBufferChannel(19688): [c2.qti.vp8.encoder#342] Query output allocators returned 0 params => BAD_INDEX (6)
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:424:17)
+I/flutter (19688): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:176:18)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ onTrack: Instance of 'RTCTrackEvent'
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/CCodecBufferChannel(19688): [c2.qti.vp8.encoder#342] Created output block pool with allocatorID 16 => poolID 716 - OK
+D/CCodecBufferChannel(19688): [c2.qti.vp8.encoder#342] Configured output block pool ids 716 => OK
+W/FlutterWebRTCPlugin(19688): FlutterRTCVideoRenderer.setVideoTrack, set video track to 8b4416d5-958a-418b-8282-a20adb515799
+I/org.webrtc.Logging(19688): EglRenderer: Releasing.
+I/org.webrtc.Logging(19688): EglRenderer: eglBase detach and release.
+I/org.webrtc.Logging(19688): EglRenderer: Releasing done.
+I/org.webrtc.Logging(19688): EglRenderer: Initializing EglRenderer
+I/org.webrtc.Logging(19688): EglRenderer: Quitting render thread.
+I/org.webrtc.Logging(19688): WebRtcAudioEffectsExternal: enable(audioSession=2981721)
+I/org.webrtc.Logging(19688): EglRenderer: EglBase.create shared context
+I/org.webrtc.Logging(19688): EglBase14Impl: Using OpenGL ES version 2
+I/org.webrtc.Logging(19688): WebRtcAudioEffectsExternal: AcousticEchoCanceler: was enabled, enable: true, is now: enabled
+I/org.webrtc.Logging(19688): WebRtcAudioEffectsExternal: NoiseSuppressor: was enabled, enable: true, is now: enabled
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: AudioRecord: session ID: 2981721, channels: 1, sample rate: 48000
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: AudioRecord: buffer size in frames: 3840
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: Number of active recording sessions: 0
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: startRecording
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: scheduleLogRecordingConfigurationsTask
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: AudioRecordThread@[name=AudioRecordJavaThread, id=87]
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: doAudioRecordStateCallback: START
+I/org.webrtc.Logging(19688): EglBase14Impl: Using OpenGL ES version 2
+I/org.webrtc.Logging(19688): AndroidVideoDecoder: initDecodeInternal name: c2.qti.vp8.decoder type: VP8 width: 640 height: 480
+I/org.webrtc.Logging(19688): SurfaceTextureHelper: Setting listener to org.webrtc.AndroidVideoDecoder@a85f738
+D/CCodec  (19688): allocate(c2.qti.vp8.decoder)
+I/CCodec  (19688): setting up 'default' as default (vendor) store
+I/CCodec  (19688): Created component [c2.qti.vp8.decoder]
+D/CCodecConfig(19688): read media type: video/x-vnd.on2.vp8
+D/ReflectedParamUpdater(19688): extent() != 1 for single value type: output.buffers.pool-ids.values
+D/CCodecConfig(19688): ignoring local param raw.size (0xd2001800) as it is already supported
+D/CCodecConfig(19688): ignoring local param default.color (0x5200180b) as it is already supported
+D/CCodecConfig(19688): ignoring local param raw.hdr-static-info (0xd200180a) as it is already supported
+I/CCodecConfig(19688): query failed after returning 18 values (BAD_INDEX)
+D/CCodecConfig(19688): c2 config diff is Dict {
+D/CCodecConfig(19688):   c2::u32 algo.low-latency.value = 4294967295
+D/CCodecConfig(19688):   c2::i32 algo.priority.value = -1
+D/CCodecConfig(19688):   c2::float algo.rate.value = 30
+D/CCodecConfig(19688):   c2::u32 algo.secure-mode.value = 0
+D/CCodecConfig(19688):   c2::float coded.frame-rate.value = 30
+D/CCodecConfig(19688):   c2::u32 coded.pl.level = 28672
+D/CCodecConfig(19688):   c2::u32 coded.pl.profile = 28672
+D/CCodecConfig(19688):   c2::u32 coded.vui.color.matrix = 0
+D/CCodecConfig(19688):   c2::u32 coded.vui.color.primaries = 0
+D/CCodecConfig(19688):   c2::u32 coded.vui.color.range = 0
+D/CCodecConfig(19688):   c2::u32 coded.vui.color.transfer = 0
+D/CCodecConfig(19688):   c2::u32 default.color.matrix = 0
+D/CCodecConfig(19688):   c2::u32 default.color.primaries = 0
+D/CCodecConfig(19688):   c2::u32 default.color.range = 0
+D/CCodecConfig(19688):   c2::u32 default.color.transfer = 0
+D/CCodecConfig(19688):   c2::u32 input.buffers.max-size.value = 14155776
+D/CCodecConfig(19688):   c2::u32 input.delay.value = 0
+D/CCodecConfig(19688):   string input.media-type.value = "video/x-vnd.on2.vp8"
+D/CCodecConfig(19688):   c2::u32 output.delay.value = 18
+D/CCodecConfig(19688):   string output.media-type.value = "video/raw"
+D/CCodecConfig(19688):   c2::u32 raw.color.matrix = 0
+D/CCodecConfig(19688):   c2::u32 raw.color.primaries = 0
+D/CCodecConfig(19688):   c2::u32 raw.color.range = 0
+D/CCodecConfig(19688):   c2::u32 raw.color.transfer = 0
+D/CCodecConfig(19688):   c2::float raw.hdr-static-info.mastering.blue.x = 0
+D/CCodecConfig(19688):   c2::float raw.hdr-static-info.mastering.b
+W/ColorUtils(19688): expected specified color aspects (0:0:0:0)
+D/SurfaceUtils(19688): connecting to surface 0xb400007e8ecbb530, reason connectToSurface
+I/MediaCodec(19688): [c2.qti.vp8.decoder] setting surface generation to 20160513
+D/SurfaceUtils(19688): disconnecting from surface 0xb400007e8ecbb530, reason connectToSurface(reconnect)
+D/SurfaceUtils(19688): connecting to surface 0xb400007e8ecbb530, reason connectToSurface(reconnect)
+D/CCodec  (19688): [c2.qti.vp8.decoder] buffers are bound to CCodec for this session
+D/CCodecConfig(19688): no c2 equivalents for native-window
+D/CCodecConfig(19688): no c2 equivalents for flags
+D/CCodecConfig(19688): c2 config diff is   c2::u32 raw.size.height = 480
+D/CCodecConfig(19688):   c2::u32 raw.size.width = 640
+W/Codec2Client(19688): query -- param skipped: index = 1107298332.
+D/CCodec  (19688): encoding statistics level = 0
+D/CCodec  (19688): setup formats input: AMessage(what = 0x00000000) = {
+D/CCodec  (19688):   int32_t feature-secure-playback = 0
+D/CCodec  (19688):   int32_t frame-rate = 30
+D/CCodec  (19688):   int32_t height = 480
+D/CCodec  (19688):   int32_t level = 1
+D/CCodec  (19688):   int32_t max-input-size = 14155776
+D/CCodec  (19688):   string mime = "video/x-vnd.on2.vp8"
+D/CCodec  (19688):   int32_t priority = 1
+D/CCodec  (19688):   int32_t profile = 1
+D/CCodec  (19688):   int32_t width = 640
+D/CCodec  (19688):   Rect crop(0, 0, 639, 479)
+D/CCodec  (19688): }
+D/CCodec  (19688): setup formats output: AMessage(what = 0x00000000) = {
+D/CCodec  (19688):   int32_t android._color-format = 2141391878
+D/CCodec  (19688):   int32_t android._video-scaling = 1
+D/CCodec  (19688):   int32_t android._dataspace = 259
+D/CCodec  (19688):   int32_t color-standard = 4
+D/CCodec  (19688):   int32_t color-range = 2
+D/CCodec  (19688):   int32_t color-transfer = 3
+D/CCodec  (19688):   int32_t sar-height = 1
+D/CCodec  (19688):   int32_t rotation-degrees = 0
+D/CCodec  (19688):   Buffer hdr-static-info = {
+D/CCodec  (19688):     00000000:  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  ................
+D/CCodec  (19688):     00000010:  00 00 00 00 00 00 00 00  00                       .........
+D/CCodec  (19688):   }
+D/CCodec  (19688):   int32_t sar-width = 1
+D/CCodec  (19688):   Rect crop(0, 0, 639, 479)
+D/CCodec  (19688):   int32_t width = 640
+D/CCodec  (19688):   int32_t feature-secure-playback = 0
+D/CCodec  (19688):   int32_t frame-rate = 30
+D/CCodec  (19688):   int32_t height = 480
+D/CCodec  (19688):   int32_t max-height = 2160
+D/CCodec  (19688):   int32_t max-width = 4096
+D/CCodec  (19688):   string mime = "video/raw"
+D/CCodec  (19688):   int32_t priority = 1
+D/CCodec  (19688):   int32_t color-format = 2130708361
+D/CCodec  (19688): }
+I/CCodecConfig(19688): query failed after returning 18 values (BAD_INDEX)
+D/CCodec  (19688): ISConfig not changed
+D/CCodecConfig(19688): c2 config diff is   c2::u32 coding.request-sync-frame.value = 1
+W/Codec2Client(19688): query -- param skipped: index = 1342179345.
+W/Codec2Client(19688): query -- param skipped: index = 2415921170.
+W/Codec2Client(19688): query -- param skipped: index = 1610614798.
+D/CCodecBufferChannel(19688): [c2.qti.vp8.decoder#522] Query input allocators returned 0 params => BAD_INDEX (6)
+D/C2Store (19688): Using ION
+D/CCodecBufferChannel(19688): [c2.qti.vp8.decoder#522] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+D/CCodecBufferChannel(19688): [c2.qti.vp8.decoder#522] Query output allocators returned 0 params => BAD_INDEX (6)
+D/CCodecBufferChannel(19688): [c2.qti.vp8.decoder#522] Query output surface allocator returned 0 params => BAD_INDEX (6)
+I/CCodecBufferChannel(19688): [c2.qti.vp8.decoder#522] Created output block pool with allocatorID 18 => poolID 717 - OK
+D/CCodecBufferChannel(19688): [c2.qti.vp8.decoder#522] Configured output block pool ids 717 => OK
+D/Codec2-OutputBufferQueue(19688): remote graphic buffer migration 0/0
+D/Codec2Client(19688): setOutputSurface -- failed to set consumer usage (6/BAD_INDEX)
+D/Codec2Client(19688): setOutputSurface -- generation=20160513 consumer usage=0x900
+D/GraphicBufferSource(19688): got buffer with new dataSpace #103
+D/C2OMXNode(19688): dataspace changed to 0x103 pixel format: 0x1
+D/Codec2Client(19688): Surface configure completed
+I/org.webrtc.Logging(19688): AndroidVideoDecoder: initDecodeInternal done
+D/CCodecBuffers(19688): [c2.qti.vp8.encoder#342:Output[N]] popFromStashAndRegister: at 0us, output format changed to AMessage(what = 0x00000000) = {
+D/CCodecBuffers(19688):   int32_t bitrate = 300000
+D/CCodecBuffers(19688):   int32_t bitrate-mode = 2
+D/CCodecBuffers(19688):   Rect crop(0, 0, 639, 479)
+D/CCodecBuffers(19688):   int32_t color-standard = 4
+D/CCodecBuffers(19688):   int32_t color-range = 2
+D/CCodecBuffers(19688):   int32_t color-transfer = 3
+D/CCodecBuffers(19688):   int32_t frame-rate = 60
+D/CCodecBuffers(19688):   int32_t height = 480
+D/CCodecBuffers(19688):   int32_t intra-refresh-period = 0
+D/CCodecBuffers(19688):   int32_t level = 1
+D/CCodecBuffers(19688):   int32_t max-bitrate = 300000
+D/CCodecBuffers(19688):   string mime = "video/x-vnd.on2.vp8"
+D/CCodecBuffers(19688):   int32_t priority = 1
+D/CCodecBuffers(19688):   int32_t profile = 1
+D/CCodecBuffers(19688):   int32_t video-qp-average = 0
+D/CCodecBuffers(19688):   int32_t width = 640
+D/CCodecBuffers(19688):   int32_t android._dataspace = 281280512
+D/CCodecBuffers(19688): }
+D/CCodec  (19688): ISConfig not changed
+D/CCodecConfig(19688): c2 config diff is   c2::u32 coded.bitrate.value = 187500
+I/org.webrtc.Logging(19688): HardwareVideoEncoder: Sync frame generated
+D/CCodecBufferChannel(19688): [c2.qti.vp8.decoder#522] Ignoring stale input buffer done callback: last flush index = 0, frameIndex = 0
+D/CCodecConfig(19688): c2 config diff is   c2::u32 output.delay.value = 14
+D/CCodecConfig(19688):   c2::u32 raw.crop.height = 480
+D/CCodecConfig(19688):   c2::u32 raw.crop.left = 0
+D/CCodecConfig(19688):   c2::u32 raw.crop.top = 0
+D/CCodecConfig(19688):   c2::u32 raw.crop.width = 640
+D/Codec2-OutputBufferQueue(19688): set max dequeue count 25 from update
+I/org.webrtc.Logging(19688): AndroidVideoDecoder: Decoder format changed: {crop-right=639, max-height=2160, sar-width=1, color-format=2130708361, mime=video/raw, hdr-static-info=java.nio.HeapByteBuffer[pos=0 lim=25 cap=25], priority=1, color-standard=4, feature-secure-playback=0, color-transfer=3, sar-height=1, crop-bottom=479, max-width=4096, crop-left=0, width=640, color-range=2, crop-top=0, rotation-degrees=0, frame-rate=30, height=480}
+I/org.webrtc.Logging(19688): AndroidVideoDecoder: Frame stride and slice height: 640 x 480
+E/qdgralloc(19688): Unknown Color Space = 2
+E/qdgralloc(19688): Unknown Color Space = 2
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: Number of active recording sessions: 1
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: AudioRecordingConfigurations:
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal:   client audio source=VOICE_COMMUNICATION, client session id=2981721 (2981721)
+I/org.webrtc.Logging(19688):   Device AudioFormat: channel count=1, channel index mask=0, channel mask=IN_MONO, encoding=PCM_16BIT, sample rate=48000
+I/org.webrtc.Logging(19688):   Client AudioFormat: channel count=1, channel index mask=0, channel mask=IN_MONO, encoding=PCM_16BIT, sample rate=48000
+I/org.webrtc.Logging(19688):   AudioDevice: type=TYPE_BUILTIN_MIC, id=23
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: verifyAudioConfig: PASS
+E/qdgralloc(19688): Unknown Color Space = 2
+D/CCodec  (19688): ISConfig not changed
+D/CCodecConfig(19688): c2 config diff is   c2::u32 coded.bitrate.value = 1416667
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:339:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ onMessage message: {}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:341:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ decoded message: {}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/org.webrtc.Logging(19688): CameraStatistics: Camera fps: 30.
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:339:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"847818","from":"224685","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:186199869 1 udp 2122260223 192.168.1.101 48268 typ host generation 0 ufrag 6H5L network-id 3 network-cost 10"},"session_id":"847818-224685"}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:341:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ decoded message: {type: candidate, data: {to: 847818, from: 224685, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:186199869 1 udp 2122260223 192.168.1.101 48268 typ host generation 0 ufrag 6H5L network-id 3 network-cost 10}, session_id: 847818-224685}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:339:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"847818","from":"224685","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:559267639 1 udp 2122202367 ::1 48037 typ host generation 0 ufrag 6H5L network-id 2"},"session_id":"847818-224685"}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:341:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ decoded message: {type: candidate, data: {to: 847818, from: 224685, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:559267639 1 udp 2122202367 ::1 48037 typ host generation 0 ufrag 6H5L network-id 2}, session_id: 847818-224685}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:339:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"847818","from":"224685","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:1510613869 1 udp 2122129151 127.0.0.1 38280 typ host generation 0 ufrag 6H5L network-id 1"},"session_id":"847818-224685"}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:341:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ decoded message: {type: candidate, data: {to: 847818, from: 224685, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:1510613869 1 udp 2122129151 127.0.0.1 38280 typ host generation 0 ufrag 6H5L network-id 1}, session_id: 847818-224685}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:339:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"847818","from":"224685","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:1885450920 1 udp 41885439 192.168.1.102 65509 typ relay raddr 192.168.1.101 rport 48268 generation 0 ufrag 6H5L network-id 3 network-cost 10"},"session_id":"847818-224685"}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:341:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ decoded message: {type: candidate, data: {to: 847818, from: 224685, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:1885450920 1 udp 41885439 192.168.1.102 65509 typ relay raddr 192.168.1.101 rport 48268 generation 0 ufrag 6H5L network-id 3 network-cost 10}, session_id: 847818-224685}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:339:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"847818","from":"224685","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:1876313031 1 tcp 1518222591 ::1 34797 typ host tcptype passive generation 0 ufrag 6H5L network-id 2"},"session_id":"847818-224685"}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:341:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ decoded message: {type: candidate, data: {to: 847818, from: 224685, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:1876313031 1 tcp 1518222591 ::1 34797 typ host tcptype passive generation 0 ufrag 6H5L network-id 2}, session_id: 847818-224685}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:339:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"847818","from":"224685","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:344579997 1 tcp 1518149375 127.0.0.1 35631 typ host tcptype passive generation 0 ufrag 6H5L network-id 1"},"session_id":"847818-224685"}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:341:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ decoded message: {type: candidate, data: {to: 847818, from: 224685, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:344579997 1 tcp 1518149375 127.0.0.1 35631 typ host tcptype passive generation 0 ufrag 6H5L network-id 1}, session_id: 847818-224685}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/org.webrtc.Logging(19688): EglRenderer: Duration: 4002 ms. Frames received: 119. Dropped: 0. Rendered: 119. Render fps: 29.7. Average render time: 1966 us. Average swapBuffer time: 809 us.
+D/CCodec  (19688): ISConfig not changed
+D/CCodecConfig(19688): c2 config diff is   c2::u32 coded.bitrate.value = 1671338
+E/qdgralloc(19688): Unknown Color Space = 2
+D/CCodec  (19688): ISConfig not changed
+D/CCodecConfig(19688): c2 config diff is   c2::u32 coded.bitrate.value = 1682255
+I/flutter (19688): send: {"type":"bye","data":{"session_id":"847818-224685","from":"847818"}}
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: stopRecording
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: stopThread
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:339:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ onMessage message: {"type":"bye","data":{"session_id":"847818-224685","to":"847818"}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:341:11)
+I/flutter (19688): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter (19688): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (19688): │ ⚠️ decoded message: {type: bye, data: {session_id: 847818-224685, to: 847818}}
+I/flutter (19688): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (19688): bye: 847818-224685
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: doAudioRecordStateCallback: STOP
+I/org.webrtc.Logging(19688): WebRtcAudioEffectsExternal: release
+I/org.webrtc.Logging(19688): WebRtcAudioRecordExternal: releaseAudioResources
+W/FlutterWebRTCPlugin(19688): FlutterRTCVideoRenderer.setVideoTrack, set video track to null
+I/org.webrtc.Logging(19688): CameraCapturer: Stop capture
+I/org.webrtc.Logging(19688): CameraCapturer: Stop capture: Nulling session
+I/org.webrtc.Logging(19688): Camera2Session: Stop camera2 session on camera 1
+I/org.webrtc.Logging(19688): CameraCapturer: Stop capture done
+I/org.webrtc.Logging(19688): Camera2Session: Stop internal
+I/org.webrtc.Logging(19688): SurfaceTextureHelper: stopListening()
+I/org.webrtc.Logging(19688): CameraCapturer: dispose
+I/org.webrtc.Logging(19688): CameraCapturer: Stop capture
+I/org.webrtc.Logging(19688): CameraCapturer: Stop capture: No session open
+I/org.webrtc.Logging(19688): CameraCapturer: Stop capture done
+I/org.webrtc.Logging(19688): SurfaceTextureHelper: stopListening()
+E/qdgralloc(19688): Unknown Color Space = 2
+I/org.webrtc.Logging(19688): Camera2Session: Stop done
+I/org.webrtc.Logging(19688): Camera2Session: Camera device closed.
+D/FlutterWebRTCPlugin(19688): CameraEventsHandler.onFirstFrameAvailable
+I/org.webrtc.Logging(19688): SurfaceTextureHelper: dispose()
+I/Choreographer(19688): Skipped 47 frames!  The application may be doing too much work on its main thread.
+W/FlutterWebRTCPlugin(19688): FlutterRTCVideoRenderer.setVideoTrack, set video track to null
+D/FlutterWebRTCPlugin(19688): trackDispose() track is null
+D/FlutterWebRTCPlugin(19688): trackDispose() track is null
+D/FlutterWebRTCPlugin(19688): streamDispose() mediaStream is null
+D/FlutterWebRTCPlugin(19688): onConnectionChangeCLOSED
+I/org.webrtc.Logging(19688): HardwareVideoEncoder: Releasing MediaCodec on output thread
+I/org.webrtc.Logging(19688): HardwareVideoEncoder: Release on output thread done
+I/org.webrtc.Logging(19688): GlShader: Deleting shader.
+I/hw-BpHwBinder(19688): onLastStrongRef automatically unlinking death recipients
+I/org.webrtc.Logging(19688): AndroidVideoDecoder: release
+I/org.webrtc.Logging(19688): AndroidVideoDecoder: Releasing MediaCodec on output thread
+D/CCodecBufferChannel(19688): [c2.qti.vp8.decoder#522] MediaCodec discarded an unknown buffer
+D/CCodecBufferChannel(19688): [c2.qti.vp8.decoder#522] MediaCodec discarded an unknown buffer
+D/CCodecBufferChannel(19688): [c2.qti.vp8.decoder#522] MediaCodec discarded an unknown buffer
+D/CCodecBufferChannel(19688): [c2.qti.vp8.decoder#522] MediaCodec discarded an unknown buffer
+D/SurfaceUtils(19688): disconnecting from surface 0xb400007e8ecbb530, reason disconnectFromSurface
+I/org.webrtc.Logging(19688): AndroidVideoDecoder: Release on output thread done
+I/org.webrtc.Logging(19688): SurfaceTextureHelper: stopListening()
+I/hw-BpHwBinder(19688): onLastStrongRef automatically unlinking death recipients
+I/org.webrtc.Logging(19688): SurfaceTextureHelper: dispose()
+I/org.webrtc.Logging(19688): VolumeLogger: stop@[name=worker_thread - 19817, id=67]
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: stopPlayout
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: underrun count: 0
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: stopThread
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: Stopping the AudioTrackThread...
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: AudioTrackThread has now been stopped.
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: Calling AudioTrack.stop...
+D/AudioTrack(19688): stop(2796): called with 137760 frames delivered
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: AudioTrack.stop is done.
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: doAudioTrackStateCallback: 1
+I/org.webrtc.Logging(19688): WebRtcAudioTrackExternal: releaseAudioResources
+I/org.webrtc.Logging(19688): NetworkMonitor: Stop monitoring with native observer -5476376607079126576
+I/org.webrtc.Logging(19688): NetworkMonitorAutoDetect: Unregister network callback
+I/org.webrtc.Logging(19688): NetworkMonitorAutoDetect: Unregister network callback
+I/org.webrtc.Logging(19688): EglRenderer: Duration: 4005 ms. Frames received: 46. Dropped: 0. Rendered: 46. Render fps: 11.5. Average render time: 1508 us. Average swapBuffer time: 612 us.
+Application finished.
+Exited
