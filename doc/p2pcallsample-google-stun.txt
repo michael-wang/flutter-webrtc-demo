@@ -1,0 +1,208 @@
+Launching lib/main.dart on aiot8365p3 64 bsp in debug mode...
+✓  Built build/app/outputs/flutter-apk/app-debug.apk.
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:309:11)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ onOpen
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): send: {"type":"new","data":{"name":"Flutter android(localhost)","id":"517305","user_agent":"flutter-webrtc/android-plugin 0.0.1"}}
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:319:11)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ onMessage message: {"type":"peers","data":[{"id":"517305","name":"Flutter android(localhost)","user_agent":"flutter-webrtc/android-plugin 0.0.1"}]}
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:321:11)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ decoded message: {type: peers, data: [{id: 517305, name: Flutter android(localhost), user_agent: flutter-webrtc/android-plugin 0.0.1}]}
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:319:11)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ onMessage message: {"type":"peers","data":[{"id":"517305","name":"Flutter android(localhost)","user_agent":"flutter-webrtc/android-plugin 0.0.1"},{"id":"618023","name":"Flutter android(localhost)","user_agent":"flutter-webrtc/android-plugin 0.0.1"}]}
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:321:11)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ decoded message: {type: peers, data: [{id: 517305, name: Flutter android(localhost), user_agent: flutter-webrtc/android-plugin 0.0.1}, {id: 618023, name: Flutter android(localhost), user_agent: flutter-webrtc/android-plugin 0.0.1}]}
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:319:11)
+I/flutter ( 5136): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ onMessage message: {"type":"offer","data":{"to":"517305","from":"618023","description":{"sdp":"v=0\r\no=- 6890860222901109662 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS ecce9d58-668f-43a4-8e5c-b94ad0be00ef\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 63 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:PbB/\r\na=ice-pwd:I3K7rQjG9lSMoNjQsbV8p1+/\r\na=ice-options:trickle renomination\r\na=fingerprint:sha-256 23:C0:DC:B9:DF:87:34:8A:3E:07:7C:9F:A9:CB:93:F7:7E:92:37:2D:88:A5:D0:6B:E4:93:FD:F7:02:F7:BF:C7\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=sendrecv\r\na=msid:ecce9d58-668f-43a4-8e5c-b94ad0be00ef 33a88182-8a9c-41e3-83e1-95a4b6
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:321:11)
+I/flutter ( 5136): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ decoded message: {type: offer, data: {to: 517305, from: 618023, description: {sdp: v=0
+I/flutter ( 5136): │ ⚠️ o=- 6890860222901109662 2 IN IP4 127.0.0.1
+I/flutter ( 5136): │ ⚠️ s=-
+I/flutter ( 5136): │ ⚠️ t=0 0
+I/flutter ( 5136): │ ⚠️ a=group:BUNDLE 0 1
+I/flutter ( 5136): │ ⚠️ a=extmap-allow-mixed
+I/flutter ( 5136): │ ⚠️ a=msid-semantic: WMS ecce9d58-668f-43a4-8e5c-b94ad0be00ef
+I/flutter ( 5136): │ ⚠️ m=audio 9 UDP/TLS/RTP/SAVPF 111 63 103 104 9 0 8 106 105 13 110 112 113 126
+I/flutter ( 5136): │ ⚠️ c=IN IP4 0.0.0.0
+I/flutter ( 5136): │ ⚠️ a=rtcp:9 IN IP4 0.0.0.0
+I/flutter ( 5136): │ ⚠️ a=ice-ufrag:PbB/
+I/flutter ( 5136): │ ⚠️ a=ice-pwd:I3K7rQjG9lSMoNjQsbV8p1+/
+I/flutter ( 5136): │ ⚠️ a=ice-options:trickle renomination
+I/flutter ( 5136): │ ⚠️ a=fingerprint:sha-256 23:C0:DC:B9:DF:87:34:8A:3E:07:7C:9F:A9:CB:93:F7:7E:92:37:2D:88:A5:D0:6B:E4:93:FD:F7:02:F7:BF:C7
+I/flutter ( 5136): │ ⚠️ a=setup:actpass
+I/flutter ( 5136): │ ⚠️ a=mid:0
+I/flutter ( 5136): │ ⚠️ a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+I/flutter ( 5136): │ ⚠️ a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+I/flutter ( 5136): │ ⚠️ a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+I/flutter ( 5136): │ ⚠️ a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+I/flutter ( 5136): │ ⚠️ a=sendrecv
+I/flutter ( 5136): │ ⚠️ a=msid:ecce9d58-668f-43a4-8e5c-b94ad0be00ef 33a88182-8a9c-41e3-83e1-95a4b609f306
+I/flutter ( 5136): │ ⚠️ a=rtcp-mux
+I/flutter ( 5136): │ ⚠️ a=rtpmap:111 opus/48000/2
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:111 transport-cc
+I/flutter ( 5136): │ ⚠️ a=fmtp:111 minptime=10;useinbandfec=1
+I/flutter ( 5136): │ ⚠️ a=rtpmap:63 red/48000/2
+I/flutter ( 5136): │ ⚠️ a=fmtp:63 111/111
+I/flutter ( 5136): │ ⚠️ a=rtpmap:103 ISAC/16000
+I/flutter ( 5136): │ ⚠️ a=rtpmap:104 ISAC/32000
+I/flutter ( 5136): │ ⚠️ a=rtpmap:9 G722/8000
+I/flutter ( 5136): │ ⚠️ a=rtpmap:0 PCMU/8000
+I/flutter ( 5136): │ ⚠️ a=rtpmap:8 PCMA/8000
+I/flutter ( 5136): │ ⚠️ a=rtpmap:106 CN/32000
+I/flutter ( 5136): │ ⚠️ a=rtpmap:105 CN/16000
+I/flutter ( 5136): │ ⚠️ a=rtpmap:13 CN/8000
+I/flutter ( 5136): │ ⚠️ a=rtpmap:110 telephone-event/48000
+I/flutter ( 5136): │ ⚠️ a=rtpmap:112 telephone-event/32000
+I/flutter ( 5136): │ ⚠️ a=rtpmap:113 telephone-event/16000
+I/flutter ( 5136): │ ⚠️ a=rtpmap:126 telephone-event/8000
+I/flutter ( 5136): │ ⚠️ a=ssrc:1036437361 cname:jRqiRoV0qsDeOlwc
+I/flutter ( 5136): │ ⚠️ a=ssrc:1036437361 msid:ecce9d58-668f-43a4-8e5c-b94ad0be00ef 33a88182-8a9c-41e3-83e1-95a4b609f306
+I/flutter ( 5136): │ ⚠️ m=video 9 UDP/TLS/RTP/SAVPF 96 97 100 101 35 36 102 125 127
+I/flutter ( 5136): │ ⚠️ c=IN IP4 0.0.0.0
+I/flutter ( 5136): │ ⚠️ a=rtcp:9 IN IP4 0.0.0.0
+I/flutter ( 5136): │ ⚠️ a=ice-ufrag:PbB/
+I/flutter ( 5136): │ ⚠️ a=ice-pwd:I3K7rQjG9lSMoNjQsbV8p1+/
+I/flutter ( 5136): │ ⚠️ a=ice-options:trickle renomination
+I/flutter ( 5136): │ ⚠️ a=fingerprint:sha-256 23:C0:DC:B9:DF:87:34:8A:3E:07:7C:9F:A9:CB:93:F7:7E:92:37:2D:88:A5:D0:6B:E4:93:FD:F7:02:F7:BF:C7
+I/flutter ( 5136): │ ⚠️ a=setup:actpass
+I/flutter ( 5136): │ ⚠️ a=mid:1
+I/flutter ( 5136): │ ⚠️ a=extmap:14 urn:ietf:params:rtp-hdrext:toffset
+I/flutter ( 5136): │ ⚠️ a=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+I/flutter ( 5136): │ ⚠️ a=extmap:13 urn:3gpp:video-orientation
+I/flutter ( 5136): │ ⚠️ a=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+I/flutter ( 5136): │ ⚠️ a=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+I/flutter ( 5136): │ ⚠️ a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+I/flutter ( 5136): │ ⚠️ a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+I/flutter ( 5136): │ ⚠️ a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space
+I/flutter ( 5136): │ ⚠️ a=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid
+I/flutter ( 5136): │ ⚠️ a=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id
+I/flutter ( 5136): │ ⚠️ a=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id
+I/flutter ( 5136): │ ⚠️ a=extmap:12 https://aomediacodec.github.io/av1-rtp-spec/#dependency-descriptor-rtp-header-extension
+I/flutter ( 5136): │ ⚠️ a=sendrecv
+I/flutter ( 5136): │ ⚠️ a=msid:ecce9d58-668f-43a4-8e5c-b94ad0be00ef 9d722e09-0c0e-4fef-9992-31a9a2240d31
+I/flutter ( 5136): │ ⚠️ a=rtcp-mux
+I/flutter ( 5136): │ ⚠️ a=rtcp-rsize
+I/flutter ( 5136): │ ⚠️ a=rtpmap:96 VP8/90000
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:96 goog-remb
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:96 transport-cc
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:96 ccm fir
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:96 nack
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:96 nack pli
+I/flutter ( 5136): │ ⚠️ a=rtpmap:97 rtx/90000
+I/flutter ( 5136): │ ⚠️ a=fmtp:97 apt=96
+I/flutter ( 5136): │ ⚠️ a=rtpmap:100 H264/90000
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:100 goog-remb
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:100 transport-cc
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:100 ccm fir
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:100 nack
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:100 nack pli
+I/flutter ( 5136): │ ⚠️ a=fmtp:100 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f
+I/flutter ( 5136): │ ⚠️ a=rtpmap:101 rtx/90000
+I/flutter ( 5136): │ ⚠️ a=fmtp:101 apt=100
+I/flutter ( 5136): │ ⚠️ a=rtpmap:35 AV1/90000
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:35 goog-remb
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:35 transport-cc
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:35 ccm fir
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:35 nack
+I/flutter ( 5136): │ ⚠️ a=rtcp-fb:35 nack pli
+I/flutter ( 5136): │ ⚠️ a=rtpmap:36 rtx/90000
+I/flutter ( 5136): │ ⚠️ a=fmtp:36 apt=35
+I/flutter ( 5136): │ ⚠️ a=rtpmap:102 red/90000
+I/flutter ( 5136): │ ⚠️ a=rtpmap:125 rtx/90000
+I/flutter ( 5136): │ ⚠️ a=fmtp:125 apt=102
+I/flutter ( 5136): │ ⚠️ a=rtpmap:127 ulpfec/90000
+I/flutter ( 5136): │ ⚠️ a=ssrc-group:FID 2452162388 3737183557
+I/flutter ( 5136): │ ⚠️ a=ssrc:2452162388 cname:jRqiRoV0qsDeOlwc
+I/flutter ( 5136): │ ⚠️ a=ssrc:2452162388 msid:ecce9d58-668f-43a4-8e5c-b94ad0be00ef 9d722e09-0c0e-4fef-9992-31a9a2240d31
+I/flutter ( 5136): │ ⚠️ a=ssrc:3737183557 cname:jRqiRoV0qsDeOlwc
+I/flutter ( 5136): │ ⚠️ a=ssrc:3737183557 msid:ecce9d58-668f-43a4-8e5c-b94ad0be00ef 9d722e09-0c0e-4fef-9992-31a9a2240d31
+I/flutter ( 5136): │ ⚠️ , type: offer}, session_id: 618023-517305, media: video}}
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ ⚠️ decoded message: {type: candidate, data: {to: 517305, from: 618023, candidate: {sdpMLineIndex: 1, sdpMid: 1, candidate: candidate:344579997 1 tcp 1517952767 127.0.0.1 49269 typ host tcptype passive generation 0 ufrag PbB/ network-id 1}, session_id: 618023-517305}}
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:319:11)
+I/flutter ( 5136): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"517305","from":"618023","candidate":{"sdpMLineIndex":0,"sdpMid":"0","candidate":"candidate:842163049 1 udp 1685921535 42.76.190.174 25177 typ srflx raddr 192.168.1.103 rport 45387 generation 0 ufrag PbB/ network-id 3 network-cost 900"},"session_id":"618023-517305"}}
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:321:11)
+I/flutter ( 5136): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ decoded message: {type: candidate, data: {to: 517305, from: 618023, candidate: {sdpMLineIndex: 0, sdpMid: 0, candidate: candidate:842163049 1 udp 1685921535 42.76.190.174 25177 typ srflx raddr 192.168.1.103 rport 45387 generation 0 ufrag PbB/ network-id 3 network-cost 900}, session_id: 618023-517305}}
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:319:11)
+I/flutter ( 5136): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ onMessage message: {"type":"candidate","data":{"to":"517305","from":"618023","candidate":{"sdpMLineIndex":1,"sdpMid":"1","candidate":"candidate:842163049 1 udp 1685921535 42.76.190.174 28018 typ srflx raddr 192.168.1.103 rport 48228 generation 0 ufrag PbB/ network-id 3 network-cost 900"},"session_id":"618023-517305"}}
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling.connect.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:321:11)
+I/flutter ( 5136): │ #1   SimpleWebSocket.connect.<anonymous closure> (package:flutter_webrtc_demo/src/utils/websocket.dart:20:20)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ decoded message: {type: candidate, data: {to: 517305, from: 618023, candidate: {sdpMLineIndex: 1, sdpMid: 1, candidate: candidate:842163049 1 udp 1685921535 42.76.190.174 28018 typ srflx raddr 192.168.1.103 rport 48228 generation 0 ufrag PbB/ network-id 3 network-cost 900}, session_id: 618023-517305}}
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:460:11)
+I/flutter ( 5136): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ NEW CANDIDATE: candidate:2530088836 1 udp 2122260223 192.168.1.106 56200 typ host generation 0 ufrag Q9JH network-id 3 network-cost 10
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:460:11)
+I/flutter ( 5136): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ NEW CANDIDATE: candidate:559267639 1 udp 2122202367 ::1 32922 typ host generation 0 ufrag Q9JH network-id 2
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:460:11)
+I/flutter ( 5136): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ NEW CANDIDATE: candidate:1510613869 1 udp 2122129151 127.0.0.1 47443 typ host generation 0 ufrag Q9JH network-id 1
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+D/FlutterWebRTCPlugin( 5136): onIceCandidate
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:460:11)
+I/flutter ( 5136): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ NEW CANDIDATE: candidate:1876313031 1 tcp 1518222591 ::1 58647 typ host tcptype passive generation 0 ufrag Q9JH network-id 2
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+D/FlutterWebRTCPlugin( 5136): onIceCandidate
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:460:11)
+I/flutter ( 5136): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ NEW CANDIDATE: candidate:344579997 1 tcp 1518149375 127.0.0.1 34425 typ host tcptype passive generation 0 ufrag Q9JH network-id 1
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+D/FlutterWebRTCPlugin( 5136): onIceCandidate
+I/flutter ( 5136): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter ( 5136): │ #0   Signaling._createSession.<anonymous closure> (package:flutter_webrtc_demo/src/call_sample/signaling.dart:460:11)
+I/flutter ( 5136): │ #1   RTCPeerConnectionNative.eventListener (package:flutter_webrtc/src/native/rtc_peerconnection_impl.dart:90:25)
+I/flutter ( 5136): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter ( 5136): │ ⚠️ NEW CANDIDATE: candidate:842163049 1 udp 1686052607 125.231.104.185 56200 typ srflx raddr 192.168.1.106 rport 56200 generation 0 ufrag Q9JH network-id 3 network-cost 10
+I/flutter ( 5136): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Application finished.
+Exited

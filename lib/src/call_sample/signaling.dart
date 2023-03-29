@@ -384,7 +384,7 @@ class Signaling {
     if (media != 'data')
       _localStream =
           await createStream(media, screenSharing, context: _context);
-    print(_iceServers);
+    log.w('Connect to ICE servers:\n$_iceServers');
     RTCPeerConnection pc = await createPeerConnection({
       ..._iceServers,
       ...{'sdpSemantics': sdpSemantics}

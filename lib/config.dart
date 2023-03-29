@@ -1,11 +1,12 @@
 class Config {
   static var peerConnection = {
-    // 'iceTransportPolicy': 'all',
     'iceServers': [
       localTurnServer,
       // remoteTurnServer,
       // googleStunServer,
     ],
+    // Possible values: "all", "relay", "none", "nohost", "host"
+    // 'iceTransportPolicy': 'all',
   };
 
   static bool getConnectionConfigFromServer = false;
