@@ -78,7 +78,9 @@ class Signaling {
 
   String get sdpSemantics => 'unified-plan';
 
-  Map<String, dynamic> _iceServers = Config.peerConnection;
+  Map<String, dynamic> _iceServers = {
+    'iceServers': Config.iceServer(),
+  };
 
   final Map<String, dynamic> _config = {
     'mandatory': {},
@@ -283,27 +285,28 @@ class Signaling {
     var url = 'https://$_host:$_port/ws';
     _socket = SimpleWebSocket(url);
 
-    print('connect to $url');
+    log.w('connect to $url');
 
-    if (Config.getConnectionConfigFromServer && _turnCredential == null) {
-      try {
+    try {
+      if (!Config.useCustomIceServer) {
         _turnCredential = await getTurnCredential(_host, _port);
-        log.w('turn server credential from Webrtc server: $_turnCredential');
-        // For local development, shouldn't we replace 127.0.0.1 by _host?
-        final url = (_turnCredential['uris'][0] as String)
-            .replaceAll('127.0.0.1', _host);
-        log.w('Turn url: $url');
         _iceServers = {
           'iceServers': [
             {
-              'urls': url,
+              'url': _turnCredential['uris'][0],
               'username': _turnCredential['username'],
               'credential': _turnCredential['password']
             },
           ]
         };
-      } catch (e) {}
-    }
+      } else {
+        _iceServers = {
+          'iceServers': [
+            Config.iceServer(),
+          ]
+        };
+      }
+    } catch (e) {}
 
     _socket?.onOpen = () {
       log.w('onOpen');
@@ -380,11 +383,11 @@ class Signaling {
     required String media,
     required bool screenSharing,
   }) async {
+    log.w('Create session with ICE servers:\n$_iceServers');
     var newSession = session ?? Session(sid: sessionId, pid: peerId);
     if (media != 'data')
       _localStream =
           await createStream(media, screenSharing, context: _context);
-    log.w('Connect to ICE servers:\n$_iceServers');
     RTCPeerConnection pc = await createPeerConnection({
       ..._iceServers,
       ...{'sdpSemantics': sdpSemantics}

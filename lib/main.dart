@@ -1,6 +1,7 @@
 import 'dart:core';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_webrtc_demo/config.dart';
 import 'package:logger/logger.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -50,16 +51,68 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          appBar: AppBar(
-            title: Text('Flutter-WebRTC example'),
-          ),
-          body: ListView.builder(
-              shrinkWrap: true,
-              padding: const EdgeInsets.all(0.0),
-              itemCount: items.length,
-              itemBuilder: (context, i) {
-                return _buildRow(context, items[i]);
-              })),
+        appBar: AppBar(
+          title: Text('Flutter-WebRTC example'),
+        ),
+        body: ListView.builder(
+            shrinkWrap: true,
+            padding: const EdgeInsets.all(0.0),
+            itemCount: items.length,
+            itemBuilder: (context, i) {
+              return _buildRow(context, items[i]);
+            }),
+        bottomSheet: StatefulBuilder(builder: (context, setState) {
+          return ListView.builder(
+            shrinkWrap: true,
+            padding: const EdgeInsets.all(0.0),
+            itemCount: 2,
+            itemBuilder: (context, i) {
+              if (i == 0) {
+                return SwitchListTile(
+                  value: Config.useCustomIceServer,
+                  onChanged: (bool value) {
+                    _prefs.setBool('useCustomIceServer', value);
+                    setState(() {
+                      Config.useCustomIceServer = value;
+                    });
+                  },
+                  title: Text('使用客製的 ICE Server'),
+                );
+              } else {
+                return ListTile(
+                  leading: Text('Server 列表'),
+                  title: DropdownButton<String>(
+                    value: Config.userSelectedIceServer,
+                    items: Config.IceServers.keys
+                        .map((serverName) => DropdownMenuItem(
+                              value: serverName,
+                              child: Column(
+                                children: [
+                                  Text(serverName),
+                                  Text(Config.IceServers[serverName]?['url'] ??
+                                      '???'),
+                                ],
+                              ),
+                            ))
+                        .toList(),
+                    onChanged: Config.useCustomIceServer
+                        ? (value) {
+                            if (value == null) {
+                              return;
+                            }
+                            _prefs.setString('userSelectedIceServer', value);
+                            setState(() {
+                              Config.userSelectedIceServer = value;
+                            });
+                          }
+                        : null,
+                  ),
+                );
+              }
+            },
+          );
+        }),
+      ),
     );
   }
 
@@ -67,6 +120,10 @@ class _MyAppState extends State<MyApp> {
     _prefs = await SharedPreferences.getInstance();
     setState(() {
       _server = _prefs.getString('server') ?? 'demo.cloudwebrtc.com';
+      Config.useCustomIceServer = _prefs.getBool('useCustomIceServer') ?? true;
+      Config.userSelectedIceServer =
+          _prefs.getString('userSelectedIceServer') ??
+              Config.userSelectedIceServer;
     });
   }
 
