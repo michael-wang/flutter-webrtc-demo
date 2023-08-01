@@ -137,6 +137,19 @@ class Signaling {
     }
   }
 
+  void toggleVideo() {
+    if (_localStream != null) {
+      final videoTracks = _localStream!.getVideoTracks();
+      if (videoTracks.isNotEmpty) {
+        final enabled = videoTracks.first.enabled;
+        for (final track in videoTracks) {
+          log.w('Track: $track, enabled: ${!enabled}');
+          track.enabled = !enabled;
+        }
+      }
+    }
+  }
+
   void invite(String peerId, String media, bool useScreen) async {
     var sessionId = _selfId + '-' + peerId;
     Session session = await _createSession(null,
@@ -145,9 +158,9 @@ class Signaling {
         media: media,
         screenSharing: useScreen);
     _sessions[sessionId] = session;
-    if (media == 'data') {
-      _createDataChannel(session);
-    }
+    // if (media == 'data') {
+    _createDataChannel(session);
+    // }
     _createOffer(session, media);
     onCallStateChange?.call(session, CallState.CallStateNew);
     onCallStateChange?.call(session, CallState.CallStateInvite);
@@ -326,7 +339,7 @@ class Signaling {
     };
 
     _socket?.onClose = (int? code, String? reason) {
-      log.w('Closed by server [$code => $reason]!');
+      log.w('socket closed, code: $code, reason: $reason');
       onSignalingStateChange?.call(SignalingState.ConnectionClosed);
     };
 
@@ -342,14 +355,15 @@ class Signaling {
           : {
               'mandatory': {
                 'minWidth':
-                    '640', // Provide your own width, height and frame rate here
-                'minHeight': '480',
+                    '1920', // Provide your own width, height and frame rate here
+                'minHeight': '1080',
                 'minFrameRate': '30',
               },
               'facingMode': 'user',
               'optional': [],
             }
     };
+    log.w('media constraints:\n$mediaConstraints');
     late MediaStream stream;
     if (userScreen) {
       if (WebRTC.platformIsDesktop) {
@@ -404,7 +418,7 @@ class Signaling {
         case 'unified-plan':
           // Unified-Plan
           pc.onTrack = (event) {
-            log.w('onTrack: $event');
+            log.w('onTrack: ${event.toString()}');
             if (event.track.kind == 'video') {
               onAddRemoteStream?.call(newSession, event.streams[0]);
             }
@@ -461,10 +475,6 @@ class Signaling {
     }
     pc.onIceCandidate = (candidate) async {
       log.w("NEW CANDIDATE: ${candidate.candidate}");
-      if (candidate == null) {
-        print('onIceCandidate: complete!');
-        return;
-      }
       // This delay is needed to allow enough time to try an ICE candidate
       // before skipping to the next one. 1 second is just an heuristic value
       // and should be thoroughly tested in your own environment.

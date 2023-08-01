@@ -2,6 +2,7 @@ import 'dart:core';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
+import 'package:flutter_webrtc_demo/main.dart';
 
 import '../widgets/screen_select_dialog.dart';
 import 'signaling.dart';
@@ -52,6 +53,17 @@ class _CallSampleState extends State<CallSample> {
 
   void _connect(BuildContext context) async {
     _signaling ??= Signaling(widget.host, context)..connect();
+
+    _signaling?.onDataChannelMessage = (session, dc, data) {
+      log.d(
+          'data channel: ${data.isBinary ? data.binary.toString() : data.text}');
+      // ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      //   content: Text(
+      //     data.isBinary ? data.binary.toString() : data.text,
+      //   ),
+      // ));
+    };
+
     _signaling?.onSignalingStateChange = (SignalingState state) {
       switch (state) {
         case SignalingState.ConnectionClosed:
@@ -248,6 +260,10 @@ class _CallSampleState extends State<CallSample> {
     _signaling?.muteMic();
   }
 
+  _toggleVideo() {
+    _signaling?.toggleVideo();
+  }
+
   _buildRow(context, peer) {
     var self = (peer['id'] == _selfId);
     return ListBody(children: <Widget>[
@@ -297,7 +313,7 @@ class _CallSampleState extends State<CallSample> {
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: _inCalling
           ? SizedBox(
-              width: 240.0,
+              width: 360.0,
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
@@ -321,6 +337,11 @@ class _CallSampleState extends State<CallSample> {
                       child: const Icon(Icons.mic_off),
                       tooltip: 'Mute Mic',
                       onPressed: _muteMic,
+                    ),
+                    FloatingActionButton(
+                      child: const Icon(Icons.video_camera_front),
+                      tooltip: 'Toggle Video',
+                      onPressed: _toggleVideo,
                     )
                   ]))
           : null,
